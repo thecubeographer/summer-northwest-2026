@@ -36,7 +36,8 @@
     var hi = meta.highlights || [];
     if (!hi.length) { h.style.display = "none"; return; }
     h.innerHTML = '<div class="hl-label">Highlights</div><div class="hl-strip">' + hi.map(function (m) {
-      return '<figure class="hl"><img src="' + m.src + '" alt="" loading="lazy">' + (m.caption ? "<figcaption>" + esc(m.caption) + "</figcaption>" : "") + "</figure>";
+      var cap = (m.day || m.caption) ? '<figcaption>' + (m.day ? '<span class="hl-day">' + esc(m.day) + "</span>" : "") + (m.caption ? esc(m.caption) : "") + "</figcaption>" : "";
+      return '<figure class="hl"><img src="' + m.src + '" alt="" loading="lazy">' + cap + "</figure>";
     }).join("") + "</div>";
   })();
 
@@ -67,7 +68,10 @@
           }).join("") + "</div>" : "");
     }
     var rest = media, spread = "";
-    if (hasText && media.length) {
+    if (s.leadFull && media.length) {
+      spread = '<div class="lead-full">' + mediaFig(media[0]) + '</div><div class="lead-text spread-text">' + textHtml + "</div>";
+      rest = media.slice(1);
+    } else if (hasText && media.length) {
       spread = '<div class="spread' + (i % 2 ? " alt" : "") + '">' +
                  '<div class="spread-media">' + mediaFig(media[0]) + "</div>" +
                  '<div class="spread-text">' + textHtml + "</div></div>";
@@ -151,7 +155,7 @@
   // wide = whole route; from Day 5 on, zoom to the tight Idaho/Wyoming cluster so the stops separate
   var wideBounds = L.latLngBounds(P);
   var DAY5 = sections.findIndex(function (s) { return s.day === "Day 5"; }); if (DAY5 < 0) DAY5 = sections.length;
-  var clusterBounds = L.latLngBounds(sections.slice(DAY5).map(function (s) { return s.coords; }));
+  var clusterBounds = L.latLngBounds(sections.slice(Math.max(0, DAY5 - 1)).map(function (s) { return s.coords; }));
   var mapMode = "wide";
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     { subdomains: "abcd", maxZoom: 19, attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(map);

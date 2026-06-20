@@ -137,9 +137,50 @@
     return c;
   }
 
+  // ---- highlights (top strip) editing ----
+  var dragHl = null;
+  function moveHl(from, to){
+    if (from == null) return; var item = meta.highlights[from]; if (!item) return;
+    meta.highlights.splice(from, 1);
+    var ti = to; if (from < to) ti = to - 1; if (ti < 0) ti = 0; if (ti > meta.highlights.length) ti = meta.highlights.length;
+    meta.highlights.splice(ti, 0, item); render();
+  }
+  function hlThumb(i){
+    var m = meta.highlights[i];
+    var box = el("div","ed-thumbbox");
+    var t = el("div","ed-thumb"); t.draggable = true;
+    var im = el("img"); im.src = m.src; t.appendChild(im);
+    var act = el("div","ed-act");
+    var bD = el("button","ed-b del","✕"); bD.type = "button"; bD.title = "remove highlight";
+    bD.onclick = function(){ meta.highlights.splice(i,1); render(); };
+    act.appendChild(bD); t.appendChild(act); box.appendChild(t);
+    var dayInp = el("input","ed-cap"); dayInp.placeholder = "day (e.g. Day 9)"; dayInp.value = m.day || ""; dayInp.oninput = function(){ m.day = dayInp.value || undefined; };
+    var capInp = el("input","ed-cap"); capInp.placeholder = "caption"; capInp.value = m.caption || ""; capInp.oninput = function(){ m.caption = capInp.value || undefined; };
+    box.appendChild(dayInp); box.appendChild(capInp);
+    t.addEventListener("dragstart", function(e){ dragHl = i; t.classList.add("dragging"); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text","x"); });
+    t.addEventListener("dragend", function(){ t.classList.remove("dragging"); });
+    t.addEventListener("dragover", function(e){ e.preventDefault(); t.classList.add("over"); });
+    t.addEventListener("dragleave", function(){ t.classList.remove("over"); });
+    t.addEventListener("drop", function(e){ e.preventDefault(); e.stopPropagation(); t.classList.remove("over"); moveHl(dragHl, i); });
+    return box;
+  }
+  function highlightsCard(){
+    if (!meta.highlights) meta.highlights = [];
+    var c = el("div","ed-sec");
+    c.appendChild(el("div","ed-h","Highlights — top strip"));
+    var grid = el("div","ed-grid");
+    meta.highlights.forEach(function(m,i){ grid.appendChild(hlThumb(i)); });
+    grid.addEventListener("dragover", function(e){ e.preventDefault(); });
+    grid.addEventListener("drop", function(e){ e.preventDefault(); moveHl(dragHl, meta.highlights.length); });
+    c.appendChild(grid);
+    c.appendChild(el("div","ed-note","Add a caption + the day each highlight is from. Drag to reorder, ✕ to remove."));
+    return c;
+  }
+
   function render(){
     wrap.innerHTML="";
     wrap.appendChild(coverCard());
+    if ((meta.highlights || []).length) wrap.appendChild(highlightsCard());
     S.forEach(function(s,i){ wrap.appendChild(sectionCard(s,i)); });
   }
   render();
