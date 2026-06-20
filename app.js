@@ -11,9 +11,9 @@
     var cap = m.caption ? '<figcaption>' + esc(m.caption) + '</figcaption>' : '';
     if (m.video) {
       return '<figure class="m video">' +
-               '<video muted loop playsinline preload="none"' + (m.poster ? ' poster="' + m.poster + '"' : '') + mstyle(m) + '>' +
+               '<div class="vwrap"><video muted loop playsinline preload="none"' + (m.poster ? ' poster="' + m.poster + '"' : '') + mstyle(m) + '>' +
                  '<source src="' + m.src + '" type="video/mp4"></video>' +
-               '<span class="sound">tap for sound</span>' + cap + '</figure>';
+                 '<span class="sound">tap for sound</span></div>' + cap + '</figure>';
     }
     return '<figure class="m"><img src="' + m.src + '" alt="" loading="lazy"' + mstyle(m) + '>' + cap + '</figure>';
   }
@@ -156,7 +156,7 @@
   var wideBounds = L.latLngBounds(P);
   var DAY5 = sections.findIndex(function (s) { return s.day === "Day 5"; }); if (DAY5 < 0) DAY5 = sections.length;
   var clusterBounds = L.latLngBounds(sections.slice(Math.max(0, DAY5 - 1)).map(function (s) { return s.coords; }));
-  var mapMode = "wide";
+  var mapMode = "wide", mapCollapsed = false;
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     { subdomains: "abcd", maxZoom: 19, attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(map);
   L.polyline(P, { color: "#cdbfae", weight: 3, opacity: .95, lineCap: "round", lineJoin: "round" }).addTo(map);
@@ -184,7 +184,7 @@
     tag.innerHTML = "<b>" + esc(s.day) + "</b>" + (s.place ? " · " + esc(s.place) : "");
     Object.keys(dotByKey).forEach(function (k) { var el = dotByKey[k].getElement(); if (el) el.classList.toggle("day-on", s.dot && k === s.coords.join(",")); });
     var mode = (i >= DAY5) ? "zoom" : "wide";
-    if (mode !== mapMode && clusterBounds.isValid()) { mapMode = mode; map.flyToBounds(mode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55], duration: 0.9 }); }
+    if (mode !== mapMode) { mapMode = mode; if (!mapCollapsed && clusterBounds.isValid()) map.flyToBounds(mode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55], duration: 0.9 }); }
   }
 
   function onScroll() {
@@ -208,7 +208,10 @@
   }
 
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", function () { map.invalidateSize(); onScroll(); });
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 880) { var mw = document.querySelector(".mapwrap"); if (mw) { mw.classList.remove("collapsed"); mw.style.height = ""; } mapCollapsed = false; }
+    map.invalidateSize(); onScroll();
+  });
   setTimeout(function () { map.invalidateSize(); setActive(0); onScroll(); }, 250);
 
   /* floating Edit button -> ?edit=1. Local-only — never shows on the public site. */
@@ -221,6 +224,19 @@
       "font:600 14px/1 Inter,system-ui,sans-serif;padding:13px 18px;border-radius:999px;text-decoration:none;" +
       "box-shadow:0 5px 20px rgba(0,0,0,.28)");
     document.body.appendChild(b);
+  })();
+
+  // mobile: collapse / expand the map for more screen room
+  (function () {
+    var mw = document.querySelector(".mapwrap"); if (!mw) return;
+    var btn = document.createElement("button"); btn.className = "map-toggle"; btn.type = "button"; btn.textContent = "▾ Map";
+    btn.onclick = function () {
+      mapCollapsed = mw.classList.toggle("collapsed");
+      mw.style.height = mapCollapsed ? "42px" : "";
+      btn.textContent = mapCollapsed ? "▴ Map" : "▾ Map";
+      if (!mapCollapsed) setTimeout(function () { map.invalidateSize(); if (clusterBounds.isValid()) map.flyToBounds(mapMode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55] }); onScroll(); }, 290);
+    };
+    mw.appendChild(btn);
   })();
 
   window.__trip = { map: map, pin: pin, setActive: setActive, sections: sections, pointAt: pointAt, secEnd: secEnd, total: TOTAL };
