@@ -33,12 +33,15 @@
   (function () {
     var h = document.getElementById("highlights");
     if (!h) return;
-    var hi = meta.highlights || [];
+    var hi = (meta.highlights || []).slice();
     if (!hi.length) { h.style.display = "none"; return; }
-    h.innerHTML = '<div class="hl-label">Highlights</div><div class="hl-strip">' + hi.map(function (m) {
+    for (var i = hi.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), tmp = hi[i]; hi[i] = hi[j]; hi[j] = tmp; }  // shuffle — mixed, not by date
+    function hfig(m) {
       var cap = (m.day || m.caption) ? '<figcaption>' + (m.day ? '<span class="hl-day">' + esc(m.day) + "</span>" : "") + (m.caption ? esc(m.caption) : "") + "</figcaption>" : "";
       return '<figure class="hl"><img src="' + m.src + '" alt="" loading="lazy">' + cap + "</figure>";
-    }).join("") + "</div>";
+    }
+    var items = hi.map(hfig).join("");
+    h.innerHTML = '<div class="hl-label">Highlights</div><div class="hl-strip"><div class="hl-track">' + items + items + "</div></div>";
   })();
 
   /* ---------- sections (magazine) ---------- */
@@ -150,7 +153,7 @@
     return out;
   }
 
-  var map = L.map("map", { zoomControl: false, scrollWheelZoom: false, attributionControl: true })
+  var map = L.map("map", { zoomControl: false, scrollWheelZoom: false, dragging: false, touchZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, tap: false, attributionControl: true })
               .fitBounds(P, { padding: [34, 34] });
   // wide = whole route; from Day 5 on, zoom to the tight Idaho/Wyoming cluster so the stops separate
   var wideBounds = L.latLngBounds(P);
@@ -175,7 +178,12 @@
   var pin = L.marker(P[0], { icon: L.divIcon({ className: "pin", html: "", iconSize: [30, 30], iconAnchor: [15, 22] }), zIndexOffset: 1000, interactive: false }).addTo(map);
 
   var secs = [].slice.call(document.querySelectorAll(".post"));
-  function render(d) { pin.setLatLng(pointAt(d)); traveled.setLatLngs(sliceTo(d)); }
+  // While the map is animating a zoom/pan, DON'T redraw the pin/line — Leaflet's zoom
+  // transform moves them together; redrawing mid-animation is what made the line disconnect.
+  var mapAnimating = false, pendingD = 0;
+  function render(d) { pendingD = d; if (mapAnimating) return; pin.setLatLng(pointAt(d)); traveled.setLatLngs(sliceTo(d)); }
+  map.on("movestart zoomstart", function () { mapAnimating = true; });
+  map.on("moveend zoomend", function () { mapAnimating = false; render(pendingD); });
 
   var active = -1, tag = document.getElementById("mapTag");
   function setActive(i) {
