@@ -1,0 +1,115 @@
+:root{
+  --paper:#fbfaf8;
+  --ink:#211f1b;
+  --soft:#6e6a62;
+  --line:#e7e2d8;
+  --accent:#9c5a3c;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"Inter", system-ui, -apple-system, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:20px;line-height:1.78;font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;image-orientation:from-image}
+a{color:inherit}
+
+/* preview badge */
+.badge{position:fixed;left:14px;bottom:14px;z-index:1200;background:var(--ink);color:#f3ede2;
+  font:500 12px/1 var(--sans);letter-spacing:.02em;padding:9px 13px;border-radius:999px;opacity:.92}
+
+/* ---------- cover: masthead over the photo ---------- */
+.cover{position:relative;height:92vh;min-height:520px;overflow:hidden}
+.cover-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover-veil{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(20,16,12,.22) 0%,rgba(20,16,12,0) 32%,rgba(20,16,12,.10) 60%,rgba(20,16,12,.62) 100%)}
+.cover-text{position:absolute;left:0;right:0;bottom:8.5%;z-index:2;text-align:center;color:#fbf7ef;padding:0 24px}
+.cover-text h1{
+  font-family:var(--serif);font-weight:500;font-size:clamp(40px,7.4vw,88px);
+  line-height:1.0;letter-spacing:-.012em;margin:0;text-shadow:0 2px 34px rgba(0,0,0,.4)}
+.cover-rule{width:66px;height:2px;background:#fbf7ef;opacity:.9;margin:24px auto 18px}
+.cover-text .sub{
+  font-family:var(--sans);font-weight:500;font-size:clamp(12px,1.5vw,15px);
+  letter-spacing:.16em;text-transform:uppercase;opacity:.96;margin:0}
+.dot-sep{display:inline-block;width:4px;height:4px;border-radius:50%;background:currentColor;vertical-align:middle;margin:0 11px;opacity:.7}
+
+/* ---------- story: reading column + sticky map ---------- */
+.story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);align-items:start}
+.reader{padding:40px clamp(20px,3.5vw,52px) 14vh}
+.mapwrap{position:sticky;top:0;height:100vh;border-left:1px solid var(--line);background:#f1eee7}
+#map{position:absolute;inset:0;height:100%;width:100%;background:#f1eee7}
+.leaflet-container{font-family:var(--sans)}
+.map-tag{position:absolute;left:16px;top:16px;z-index:500;background:rgba(255,255,255,.92);
+  backdrop-filter:blur(6px);border:1px solid var(--line);border-radius:999px;padding:7px 14px;
+  font:500 13px/1 var(--sans);color:var(--ink);box-shadow:0 3px 12px rgba(0,0,0,.08)}
+.map-tag b{font-weight:600;color:var(--accent)}
+
+/* dots + moving pin */
+.dot span{display:block;width:13px;height:13px;border-radius:50%;background:#fff;border:2px solid var(--accent);box-shadow:0 1px 4px rgba(0,0,0,.22)}
+.day-on span{background:var(--accent)}
+.dot.start span{width:auto;height:auto;border:0;background:none;box-shadow:none;color:var(--soft);font-size:15px;line-height:1}
+.pin{position:relative;transition:transform .13s ease-out}
+.pin::after{content:"";position:absolute;left:50%;top:50%;width:16px;height:16px;border-radius:50% 50% 50% 0;
+  transform:translate(-50%,-62%) rotate(-45deg);background:var(--accent);border:2.5px solid #fff;box-shadow:0 3px 9px rgba(0,0,0,.32)}
+
+/* ---------- a section ---------- */
+.post{border-top:2px solid var(--ink)}
+.post:first-child{border-top:0}
+.post-head{padding:34px 0 18px;border-bottom:1px solid var(--line);margin-bottom:28px}
+.daynum{font-family:var(--serif);font-weight:600;font-size:clamp(27px,3vw,40px);line-height:1;letter-spacing:-.01em;margin:0 0 11px}
+.dateline{font-family:var(--sans);font-weight:600;font-size:12.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--soft)}
+.locline{font-family:var(--serif);font-style:italic;font-size:18px;color:var(--soft);margin-top:3px}
+
+/* lead spread: feature media + text, aligned to the same height (sides alternate) */
+.spread{display:grid;grid-template-columns:1.04fr .96fr;gap:30px;align-items:stretch;margin:0 0 26px}
+.spread>*{min-width:0}
+.spread.alt .spread-media{order:2}
+.spread-media{display:flex}
+.spread-media .m{margin:0;flex:1;min-height:260px}
+.spread-media .m img,.spread-media .m video{width:100%;height:100%;object-fit:cover}
+.spread-text{align-self:center}
+.spread-text h2{font-family:var(--serif);font-weight:500;font-size:clamp(25px,2.7vw,35px);line-height:1.14;letter-spacing:-.01em;margin:0 0 16px}
+.spread-text p{margin:0 0 16px}
+.spread-text .todo{color:var(--soft);font-style:italic}
+.post-textonly{max-width:680px;margin:0 0 8px}
+.post-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.post-links a{font:600 12.5px/1 var(--sans);text-decoration:none;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:8px 13px;background:#fff}
+.post-links a:hover{border-color:var(--accent)}
+
+/* gallery: masonry columns — 2–3 across, no cropping */
+.gallery{columns:235px;column-gap:13px}
+.gallery .m{margin:0 0 13px;break-inside:avoid}
+
+/* media */
+.m{margin:22px 0}
+.m img,.m video{width:100%;border-radius:5px;background:var(--line);display:block}
+.m video{background:#000}
+.m figcaption{font-size:14.5px;font-style:italic;color:var(--soft);margin-top:7px}
+.m.video{position:relative;cursor:pointer}
+.m.video .sound{position:absolute;left:11px;bottom:11px;background:rgba(20,18,15,.58);color:#fff;
+  font:500 11.5px/1 var(--sans);letter-spacing:.02em;padding:6px 10px;border-radius:999px;
+  backdrop-filter:blur(3px);user-select:none;display:flex;align-items:center;gap:6px}
+.m.video .sound::before{content:"♪"}
+.m.video.heard .sound{display:none}
+
+/* footer */
+.foot{border-top:2px solid var(--ink);text-align:center;padding:56px 24px;color:var(--soft)}
+.foot p{margin:0;font-style:italic}
+
+/* responsive */
+@media (max-width:880px){
+  body{font-size:18px}
+  .story{grid-template-columns:1fr}
+  .mapwrap{order:-1;position:sticky;top:0;height:40vh;border-left:0;border-bottom:1px solid var(--line)}
+  .reader{padding:28px 18px 14vh}
+  .spread{grid-template-columns:1fr;gap:14px;align-items:start}
+  .spread.alt .spread-media{order:0}
+  .spread-media .m{min-height:0}
+  .spread-media .m img,.spread-media .m video{height:auto;object-fit:contain}
+  .gallery{columns:160px;column-gap:10px}
+  .gallery .m{margin:0 0 10px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

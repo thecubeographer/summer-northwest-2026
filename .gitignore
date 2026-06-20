@@ -1,0 +1,10 @@
+# Huge camera/phone originals — not needed for the published site (web copies live in media/)
+Photos:videos/
+
+# Editor save-backups + temp
+data/_backups/
+media/.tmp/
+
+# macOS cruft
+.DS_Store
+**/.DS_Store
