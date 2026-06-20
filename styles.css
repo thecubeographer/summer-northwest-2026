@@ -56,7 +56,7 @@ a{color:inherit}
   transform:translate(-50%,-62%) rotate(-45deg);background:var(--accent);border:2.5px solid #fff;box-shadow:0 3px 9px rgba(0,0,0,.32)}
 
 /* ---------- a section ---------- */
-.post{border-top:2px solid var(--ink)}
+.post{border-top:2px solid var(--ink);padding-bottom:46px}
 .post:first-child{border-top:0}
 .post-head{padding:34px 0 18px;border-bottom:1px solid var(--line);margin-bottom:28px}
 .daynum{font-family:var(--serif);font-weight:600;font-size:clamp(27px,3vw,40px);line-height:1;letter-spacing:-.01em;margin:0 0 11px}
@@ -64,13 +64,12 @@ a{color:inherit}
 .locline{font-family:var(--serif);font-style:italic;font-size:18px;color:var(--soft);margin-top:3px}
 
 /* lead spread: feature media + text, aligned to the same height (sides alternate) */
-.spread{display:grid;grid-template-columns:1.04fr .96fr;gap:30px;align-items:stretch;margin:0 0 26px}
+.spread{display:grid;grid-template-columns:1.04fr .96fr;gap:32px;align-items:start;margin:0 0 40px}
 .spread>*{min-width:0}
 .spread.alt .spread-media{order:2}
-.spread-media{display:flex}
-.spread-media .m{margin:0;flex:1;min-height:260px}
-.spread-media .m img,.spread-media .m video{width:100%;height:100%;object-fit:cover}
-.spread-text{align-self:center}
+.spread-media .m{margin:0}
+.spread-media .m img,.spread-media .m video{width:100%;height:auto;max-height:62vh;object-fit:cover;border-radius:5px;display:block}
+.spread-text{align-self:start}
 .spread-text h2{font-family:var(--serif);font-weight:500;font-size:clamp(25px,2.7vw,35px);line-height:1.14;letter-spacing:-.01em;margin:0 0 16px}
 .spread-text p{margin:0 0 16px}
 .spread-text .todo{color:var(--soft);font-style:italic}
@@ -79,9 +78,12 @@ a{color:inherit}
 .post-links a{font:600 12.5px/1 var(--sans);text-decoration:none;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:8px 13px;background:#fff}
 .post-links a:hover{border-color:var(--accent)}
 
-/* gallery: masonry columns — 2–3 across, no cropping */
-.gallery{columns:235px;column-gap:13px}
-.gallery .m{margin:0 0 13px;break-inside:avoid}
+/* gallery: clean uniform grid (equal tiles; tap a tile to open full size) */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:13px;align-items:start;margin:6px 0 0}
+.gallery .m{margin:0}
+.gallery .m img,.gallery .m video{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:5px;cursor:zoom-in}
+.gallery .m.video img,.gallery .m.video video{cursor:pointer}
+.gallery .m figcaption{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 /* media */
 .m{margin:22px 0}
@@ -95,6 +97,19 @@ a{color:inherit}
 .m.video .sound::before{content:"♪"}
 .m.video.heard .sound{display:none}
 
+/* lightbox — tap a photo to open it full size */
+.lightbox{position:fixed;inset:0;z-index:2000;background:rgba(18,16,13,.93);display:none;align-items:center;justify-content:center;cursor:zoom-out;padding:18px}
+.lightbox.open{display:flex}
+.lightbox img{max-width:96vw;max-height:96vh;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:0 12px 60px rgba(0,0,0,.55)}
+
+/* highlights strip (camera favorites, horizontal scroll) */
+.highlights{padding:32px clamp(20px,3.5vw,52px) 4px}
+.hl-label{font:600 12px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--soft);margin:0 0 14px}
+.hl-strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.hl{margin:0;flex:0 0 auto;scroll-snap-align:start}
+.hl img{height:300px;width:auto;border-radius:7px;display:block;cursor:zoom-in}
+.hl figcaption{font-size:13px;font-style:italic;color:var(--soft);margin-top:6px;max-width:340px}
+
 /* footer */
 .foot{border-top:2px solid var(--ink);text-align:center;padding:56px 24px;color:var(--soft)}
 .foot p{margin:0;font-style:italic}
@@ -107,9 +122,8 @@ a{color:inherit}
   .reader{padding:28px 18px 14vh}
   .spread{grid-template-columns:1fr;gap:14px;align-items:start}
   .spread.alt .spread-media{order:0}
-  .spread-media .m{min-height:0}
-  .spread-media .m img,.spread-media .m video{height:auto;object-fit:contain}
-  .gallery{columns:160px;column-gap:10px}
-  .gallery .m{margin:0 0 10px}
+  .spread-media .m img,.spread-media .m video{max-height:none;object-fit:contain}
+  .gallery{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+  .hl img{height:220px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

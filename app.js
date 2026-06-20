@@ -29,6 +29,17 @@
       '<p class="sub">' + esc(meta.tagline) + (meta.dates ? '<span class="dot-sep"></span>' + esc(meta.dates) : "") + "</p>" +
     "</div>";
 
+  /* ---------- highlights strip (camera favorites) ---------- */
+  (function () {
+    var h = document.getElementById("highlights");
+    if (!h) return;
+    var hi = meta.highlights || [];
+    if (!hi.length) { h.style.display = "none"; return; }
+    h.innerHTML = '<div class="hl-label">Highlights</div><div class="hl-strip">' + hi.map(function (m) {
+      return '<figure class="hl"><img src="' + m.src + '" alt="" loading="lazy">' + (m.caption ? "<figcaption>" + esc(m.caption) + "</figcaption>" : "") + "</figure>";
+    }).join("") + "</div>";
+  })();
+
   /* ---------- sections (magazine) ---------- */
   var reader = document.getElementById("reader");
   sections.forEach(function (s, i) {
@@ -80,11 +91,25 @@
       });
     }, { threshold: [0, 0.4, 1] });
     [].forEach.call(document.querySelectorAll(".m.video video"), function (v) { io.observe(v); });
-    reader.addEventListener("click", function (e) {
-      var fig = e.target.closest && e.target.closest(".m.video");
+
+    // tap a photo to open it full-size; tap a video for sound
+    var lb = document.createElement("div"); lb.className = "lightbox"; lb.innerHTML = '<img alt="">';
+    document.body.appendChild(lb);
+    var lbImg = lb.querySelector("img");
+    function closeLB() { lb.classList.remove("open"); lbImg.removeAttribute("src"); }
+    lb.addEventListener("click", closeLB);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLB(); });
+    document.addEventListener("click", function (e) {
+      if (lb.classList.contains("open")) return;
+      var fig = e.target.closest && e.target.closest(".m, .hl");
       if (!fig) return;
-      var v = fig.querySelector("video");
-      if (v.muted) { v.muted = false; v.controls = true; fig.classList.add("heard"); v.play().catch(function(){}); }
+      if (fig.classList.contains("video")) {
+        var v = fig.querySelector("video");
+        if (v && v.muted) { v.muted = false; v.controls = true; fig.classList.add("heard"); v.play().catch(function(){}); }
+        return;
+      }
+      var img = fig.querySelector("img");
+      if (img) { lbImg.src = img.currentSrc || img.src; lb.classList.add("open"); }
     });
   })();
 
@@ -123,6 +148,11 @@
 
   var map = L.map("map", { zoomControl: false, scrollWheelZoom: false, attributionControl: true })
               .fitBounds(P, { padding: [34, 34] });
+  // wide = whole route; from Day 5 on, zoom to the tight Idaho/Wyoming cluster so the stops separate
+  var wideBounds = L.latLngBounds(P);
+  var DAY5 = sections.findIndex(function (s) { return s.day === "Day 5"; }); if (DAY5 < 0) DAY5 = sections.length;
+  var clusterBounds = L.latLngBounds(sections.slice(DAY5).map(function (s) { return s.coords; }));
+  var mapMode = "wide";
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     { subdomains: "abcd", maxZoom: 19, attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(map);
   L.polyline(P, { color: "#cdbfae", weight: 3, opacity: .95, lineCap: "round", lineJoin: "round" }).addTo(map);
@@ -149,6 +179,8 @@
     active = i; var s = sections[i];
     tag.innerHTML = "<b>" + esc(s.day) + "</b>" + (s.place ? " · " + esc(s.place) : "");
     Object.keys(dotByKey).forEach(function (k) { var el = dotByKey[k].getElement(); if (el) el.classList.toggle("day-on", s.dot && k === s.coords.join(",")); });
+    var mode = (i >= DAY5) ? "zoom" : "wide";
+    if (mode !== mapMode && clusterBounds.isValid()) { mapMode = mode; map.flyToBounds(mode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55], duration: 0.9 }); }
   }
 
   function onScroll() {
