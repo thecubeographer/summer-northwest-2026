@@ -46,6 +46,9 @@ window.TRIP = {
         "The highlight was a little video game I built with Claude. The cousins threw out ideas the whole time, and you can see them glued to the computer in the photos. We also got Uncle John a barbecue he'd been wanting and broke it in right away with burgers.",
         "The rest of the time was errands, a drive past the Air Force base, and a couple of upgrades for the trailer — a flag for the back, and a bigger battery and solar setup so we can camp off-grid longer and still keep the internet going."
       ],
+      "links": [
+        { "label": "Play the game we made", "url": "https://thecubeographer.github.io/chroma-protocol/" }
+      ],
       "media": [
         { "src": "media/20260612_090248.mp4", "poster": "media/20260612_090248.poster.jpg", "video": true, "by": "Joseph" },
         { "src": "media/20260612_153556.mp4", "poster": "media/20260612_153556.poster.jpg", "video": true, "by": "Joseph", "caption": "River stop on the way up" },
