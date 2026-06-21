@@ -86,7 +86,7 @@
     art.innerHTML = head + spread + gallery;
     reader.appendChild(art);
   });
-  document.getElementById("foot").innerHTML = "<p>More days as we drive them.</p>";
+  document.getElementById("foot").innerHTML = "<p>More to come.</p>";
 
   /* ---------- videos: autoplay (muted) in view, pause out; tap for sound ---------- */
   (function () {

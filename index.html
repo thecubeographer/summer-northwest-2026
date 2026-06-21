@@ -27,14 +27,14 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="data/route.js?v=4"></script>
-  <script src="data/trip.js?v=12"></script>
+  <script src="data/trip.js?v=13"></script>
   <script>
     /* edit mode (?edit) loads the editor; otherwise the normal read-only site */
     (function () {
       var local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
       var edit = local && new URLSearchParams(location.search).has("edit");  // editing is local-only
       var s = document.createElement("script");
-      s.src = edit ? "editor.js?v=3" : "app.js?v=17";
+      s.src = edit ? "editor.js?v=3" : "app.js?v=18";
       document.body.appendChild(s);
     })();
   </script>
