@@ -5,6 +5,7 @@ window.TRIP = {
     "tagline": "Joseph & Evangeline · Road Trip Journal",
     "dates": "",
     "cover": "media/ontopoftheworld-1.jpg",
+    "instagram": "joe.and.evangline",
     "highlights": [
       {
         "src": "media/highligh-09.jpg",

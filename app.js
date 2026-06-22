@@ -86,7 +86,8 @@
     art.innerHTML = head + spread + gallery;
     reader.appendChild(art);
   });
-  document.getElementById("foot").innerHTML = "<p>More to come.</p>";
+  var igFoot = meta.instagram ? '<p class="foot-ig"><a href="https://www.instagram.com/' + esc(meta.instagram) + '/" target="_blank" rel="noopener">@' + esc(meta.instagram) + ' on Instagram ↗</a></p>' : "";
+  document.getElementById("foot").innerHTML = "<p>More to come.</p>" + igFoot;
 
   /* ---------- videos: autoplay (muted) in view, pause out; tap for sound ---------- */
   (function () {
