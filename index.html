@@ -9,10 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="styles.css?v=11">
+<link rel="stylesheet" href="styles.css?v=12">
 <link rel="stylesheet" href="editor.css?v=1">
 </head>
 <body>
+  <div id="loader" class="loader"><div class="loader-box"><div class="lt">Summer Northwest 2026</div><div class="loader-spin"></div></div></div>
+
   <header class="cover" id="cover"></header>
 
   <section class="highlights" id="highlights"></section>
@@ -26,16 +28,29 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="data/route.js?v=4"></script>
-  <script src="data/trip.js?v=15"></script>
+  <script src="data/route.js?v=5"></script>
+  <script src="data/trip.js?v=16"></script>
   <script>
     /* edit mode (?edit) loads the editor; otherwise the normal read-only site */
     (function () {
       var local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
       var edit = local && new URLSearchParams(location.search).has("edit");  // editing is local-only
       var s = document.createElement("script");
-      s.src = edit ? "editor.js?v=3" : "app.js?v=18";
+      s.src = edit ? "editor.js?v=3" : "app.js?v=19";
       document.body.appendChild(s);
+
+      /* loading screen: hold until the first 3 highlight photos load (skipped in editor) */
+      var loader = document.getElementById("loader");
+      if (loader) {
+        var hideLoader = function () { loader.classList.add("hide"); setTimeout(function () { if (loader.parentNode) loader.parentNode.removeChild(loader); }, 650); };
+        var hl = edit ? [] : (((window.TRIP || {}).meta || {}).highlights || []).slice(0, 3);
+        if (!hl.length) { hideLoader(); }
+        else {
+          var got = 0, done = false, fin = function () { if (done) return; done = true; hideLoader(); };
+          hl.forEach(function (h) { var im = new Image(); im.onload = im.onerror = function () { if (++got >= hl.length) fin(); }; im.src = h.src; });
+          setTimeout(fin, 7000);  // safety: never hang
+        }
+      }
     })();
   </script>
 </body>

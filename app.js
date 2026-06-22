@@ -122,7 +122,7 @@
 
   /* ================= map: pin follows the traced road ================= */
   var hasRoute = !!(ROUTE && ROUTE.a && ROUTE.a.length);
-  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h"];
+  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
   var LEGS = hasRoute ? LEGORDER.filter(function (k) { return ROUTE[k] && ROUTE[k].length; }) : [];
   var P = [], legStart = {};
   if (hasRoute) { LEGS.forEach(function (k) { legStart[k] = P.length; P = P.concat(ROUTE[k]); }); }
@@ -237,11 +237,11 @@
   // mobile: collapse / expand the map for more screen room
   (function () {
     var mw = document.querySelector(".mapwrap"); if (!mw) return;
-    var btn = document.createElement("button"); btn.className = "map-toggle"; btn.type = "button"; btn.textContent = "▾ Map";
+    var btn = document.createElement("button"); btn.className = "map-toggle"; btn.type = "button"; btn.textContent = "▾ Hide Map";
     btn.onclick = function () {
       mapCollapsed = mw.classList.toggle("collapsed");
       mw.style.height = mapCollapsed ? "42px" : "";
-      btn.textContent = mapCollapsed ? "▴ Map" : "▾ Map";
+      btn.textContent = mapCollapsed ? "▸ Show Map" : "▾ Hide Map";
       if (!mapCollapsed) setTimeout(function () { map.invalidateSize(); if (clusterBounds.isValid()) map.flyToBounds(mapMode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55] }); onScroll(); }, 290);
     };
     mw.appendChild(btn);

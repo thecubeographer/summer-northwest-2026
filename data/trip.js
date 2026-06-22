@@ -125,7 +125,7 @@ window.TRIP = {
       "body": [
         "We got into Mountain Home, Idaho on Friday evening after a scenic drive and stayed through Monday. Evangeline's aunt and uncle live here with their three boys, so the weekend was a relaxing time spent hanging out with family and working on a few projects together.",
         "The highlight for me was a little video game I built with Claude. The cousins threw out ideas the whole time, and as you can see, they are glued to the computer and my side in the photos.  John got a barbecue he'd been wanting and broke it in right away with burgers, which turned out fantastic!",
-        "The rest of the time was errands, a drive past the Air Force base, and a couple of upgrades for the trailer — a flag for the back, and a bigger battery and solar setup so we can camp off-grid longer and still keep the internet going."
+        "The rest of the time was errands, a fun lunch at the Air Force base, and a couple of upgrades for the trailer — an American flag, and a bigger battery and solar setup so we can camp off-grid longer and still keep the internet going."
       ],
       "links": [
         {
@@ -198,14 +198,51 @@ window.TRIP = {
         "We hiked around during sunset, and have a lot of fun photos from this night."
       ],
       "media": [
-        { "src": "media/IMG_0705.mp4", "poster": "media/IMG_0705.poster.jpg", "video": true, "by": "Evangeline", "caption": "Actual rapids, not a lazy river" },
-        { "src": "media/IMG_0712.mp4", "poster": "media/IMG_0712.poster.jpg", "video": true, "by": "Evangeline", "caption": "The calmer part" },
-        { "src": "media/1000057949.jpg", "by": "Joseph", "caption": "Our home on wheels" },
-        { "src": "media/20260616_205659.jpg", "by": "Joseph" },
-        { "src": "media/rdtrip-3.jpg", "by": "Joseph", "caption": "Sunset over the canyon" },
-        { "src": "media/20260615_180808.jpg", "by": "Joseph", "caption": "Our camp from up on the hike" },
-        { "src": "media/IMG_0723.mp4", "poster": "media/IMG_0723.poster.jpg", "video": true, "by": "Evangeline", "caption": "On the drive" },
-        { "src": "media/rdtrip-5.jpg", "by": "Joseph", "caption": "Silhouettes at sunset" }
+        {
+          "src": "media/IMG_0705.mp4",
+          "poster": "media/IMG_0705.poster.jpg",
+          "video": true,
+          "by": "Evangeline",
+          "caption": "Actual rapids, not a lazy river"
+        },
+        {
+          "src": "media/IMG_0712.mp4",
+          "poster": "media/IMG_0712.poster.jpg",
+          "video": true,
+          "by": "Evangeline",
+          "caption": "The calmer part"
+        },
+        {
+          "src": "media/1000057949.jpg",
+          "by": "Joseph",
+          "caption": "Our home on wheels"
+        },
+        {
+          "src": "media/20260616_205659.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rdtrip-3.jpg",
+          "by": "Joseph",
+          "caption": "Sunset over the canyon"
+        },
+        {
+          "src": "media/20260615_180808.jpg",
+          "by": "Joseph",
+          "caption": "Our camp from up on the hike"
+        },
+        {
+          "src": "media/IMG_0723.mp4",
+          "poster": "media/IMG_0723.poster.jpg",
+          "video": true,
+          "by": "Evangeline",
+          "caption": "On the drive"
+        },
+        {
+          "src": "media/rdtrip-5.jpg",
+          "by": "Joseph",
+          "caption": "Silhouettes at sunset"
+        }
       ]
     },
     {
@@ -221,9 +258,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A cave, repairs, and a date night",
       "body": [
-        "Day six started slow with a hike up to a little cave — cool and dark, worth the climb.",
-        "Then the less fun part of trailer life: fixing the propane regulator and topping off the tires before getting back on the road (with a stop for some horses).",
-        "We pulled into a full-hookup site on the north shore of Bear Lake. The water there is unreal — a bright turquoise right on the Idaho–Utah line. We cleaned up and went out for a date night at the Bear Trapper. Worth it, and the milkshakes were great."
+        "Day six started with the less fun part of trailer life: fixing the propane regulator and topping off the tires before getting back on the road. \nwe enjoyed a flooded, short walk to a little cave — cool and dark, worth the stop.",
+        "We spent the night at an RV park on the north shore of Bear Lake. The water there is unreal — a bright turquoise right on the Idaho–Utah line. We cleaned up and went out for a date night at the Bear Trapper Restaurant. a fantastic hidden gem with delicious food."
       ],
       "links": [
         {
@@ -308,8 +344,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A slow morning, then into Wyoming",
       "body": [
-        "We took it easy at the lake in the morning — Bear Lake State Park's North Beach — snacks on the sand and a few pages of a 300-questions book. Exactly the kind of slow morning we came on this trip for.",
-        "Then we headed east into Wyoming. The farmland opened up into wide range and our first real look at the Wind River country. We ended up near Pinedale, parked at a pull-off on Skyline Drive above Fremont Lake — high up, quiet, and a great view."
+        "We took it easy at Bear Lake State Park's North Beach for the morning, snacks on the sand and a few pages of a 300-questions book. Except that the wind ended up chasing us away as it started blowing sand everywhere!",
+        "Then we headed east into Wyoming. The farmland slowly faded as we got our first real look at the Wind River Range. We enjoyed a beautiful view at a pull-off on Skyline Drive above Fremont Lake. Just up the road we spent the night in a beautiful meadow."
       ],
       "links": [
         {
@@ -381,8 +417,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Hot springs in the Hoback",
       "body": [
-        "We came down off Skyline Drive into Pinedale, took Highway 191 up to Hoback, then cut over on 89 to Astoria Hot Springs on the Snake River. It's pricey and pretty built up — concrete pools and a cold plunge — but there's wild hot spring water running through the rocks around it and the river right next to you. We liked it.",
-        "After the springs we headed back up 89 to Hoback and grabbed the first pull-off we could find on Henry's Road, close enough to see the highway from the trailer. Jackson tomorrow."
+        "We got an early start to hike the Sacred Rim Trail, which had the most spectacular view of the mountains. then we drove up to Astoria Hot Springs on the Snake River. It's pricey and pretty built up — concrete pools and a cold plunge — but there's wild hot spring water running through the rocks around it and the river right next to you. We enjoyed a relaxing afternoon enjoying the pools and lounge areas.",
+        "After the hot springs we headed back up 89 to Hoback and stayed at a  pull-off on Henry's Road. at the same pull-out, another young couple was spending the night there, and Evangeline brought over some leftover watermelon to them to strike up conversation. we learned they are also full time travelers from Pennsylvania, and we ended up swapping socials."
       ],
       "links": [
         {
@@ -484,9 +520,9 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Jackson, and everything breaks at once",
       "body": [
-        "We drove from Hoback into Jackson and split up for a bit — Evangeline checked out the shops while I worked. On the way in we caught a bunch of supercars covered in stickers flying past; turns out we'd missed the Gold Rush Rally by a day, but we still got to see some of them. Lunch in the trailer, then ice cream at a local spot that was really good.",
-        "Then everything started going wrong. The Jackery battery we run everything off of locked up and wouldn't turn back on. We headed for camp anyway — through the National Elk Refuge and up toward Curtis Canyon — and about fifty feet from the site the engine started making a noise. The temp gauge was pegged and the coolant was boiling. We shut it off, let it cool, limped in, and parked, hoping nothing was seriously wrong.",
-        "Setting up camp turned into a whole thing. The generator wouldn't start either — we'd never needed it since we had the Jackery. After calling the company and messing with it for a while, it just needed oil, even though the gauge said it was full. I dealt with that while Evangeline called her mom, vented about the day, and caught up on everything going on back home at the fair this week — which we're bummed to be missing.",
+        "We drove from Hoback into Jackson and on the way in we caught a bunch of supercars covered in stickers flying past; turns out we'd missed the Gold Rush Rally by a day, but we still got to see some of them. We split up for a bit — Evangeline checked out the shops while I worked. Lunch in the trailer, then ice cream at a local spot that was really good.",
+        "Then everything started going wrong. The Jackery battery we run everything off of locked up and wouldn't turn back on. We headed for camp anyway — through the National Elk Refuge and up toward Curtis Canyon, up a steep, bumpy dirt road. About fifty feet from the site we realized the engine had started making a noise. The temp gauge was pegged and the coolant was boiling. We shut it off, let it cool, limped in, and parked, hoping nothing was seriously wrong.",
+        "Setting up camp turned into a whole thing. The generator wouldn't start either — we'd never needed it since we had the Jackery. After we messed with it for a while, Evangeline figured out it just needed oil, even though the gauge said it was full. We dealt with that and then I called the Jackery company to try and figure out those issues.",
         "Then the evening turned out great. We walked out and watched the sun go down behind the Grand Tetons across the valley and got some of the best photos of the trip. Dinner was simple — ramen and the last of the watermelon — and we went to bed early."
       ],
       "links": [
@@ -558,9 +594,9 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Breakdowns, a market, and a good dinner",
       "body": [
-        "Up early and on the road by 8:15 to find a mechanic. The only shop open couldn't get us in until tomorrow, so we needed somewhere to stay. Evangeline found the Fireside Resort, called and explained our situation, and they were really nice about fitting us in for the night.",
-        "We had a couple hours before check-in, so we hit the Jackson Hole farmers market on the Town Square — easily the best one either of us has been to. Tons of samples: cheeses, olive oils, yogurts, jams, salmon, dips. We left with a $5 bag of raw red-cabbage sauerkraut (supposedly loaded with vitamin C), a basil-garlic chip dip that was so good it made Evangeline cry, and a piece of wild-caught Alaskan smoked salmon we couldn't pass up. (We talked ourselves out of a rum-based vanilla extract first.)",
-        "We walked through a few shops and art galleries, then drove ten minutes out to Fireside. After how much went wrong the last couple days, we're making tonight count: smoked salmon, roasted potatoes, and the bottle of Hellwig rosé bubbly that Jack and Sarah sent us off with."
+        "Up early and on the road by 8:15 to find a mechanic. The only shop open couldn't get us in until tomorrow, so we needed somewhere to stay. Evangeline searched high and low, and ended up finding the luxurious Fireside Resort. She called and explained our situation, and they were really nice about fitting us in for the night, despite our hesitations because of the cost.",
+        "We had a couple hours before check-in, so we hit the Jackson Hole farmers market on the Town Square — easily the best one either of us has been to. Tons of samples: cheeses, olive oils, yogurts, jams, salmon, dips. We bought a $5 bag of raw red-cabbage sauerkraut which the sweet vendor explained was loaded with vitamin C and lots of minerals. We also purchased a basil-garlic chip dip that was so good it made Evangeline cry, and a piece of wild-caught Alaskan smoked salmon we couldn't pass up. (We ended up sadly skipping a tempting rum-based vanilla extract.)",
+        "We walked through a few shops and art galleries, then carefully drove out to Fireside. After how much went wrong the last couple days, we made tonight a special father's day celebration: smoked salmon, roasted potatoes, and a bottle of Hellwig rosé bubbly that my Uncle Jack and Aunt Sarah sent us off with."
       ],
       "links": [
         {
@@ -599,6 +635,98 @@ window.TRIP = {
           "src": "media/IMG_0989.mp4",
           "poster": "media/IMG_0989.poster.jpg",
           "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1001.mp4",
+          "poster": "media/IMG_1001.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1002.mp4",
+          "poster": "media/IMG_1002.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1003.mp4",
+          "poster": "media/IMG_1003.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1005.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1007.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1017.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 11",
+      "date": "Sunday, June 21",
+      "place": "Jackson → Grand Teton NP, WY",
+      "coords": [
+        43.66075,
+        -110.61576
+      ],
+      "dot": true,
+      "endLeg": "i",
+      "endFrac": 1,
+      "title": "Church, a bigger repair, and dinner in the Tetons",
+      "body": [
+        "We got moving quickly this morning and dropped the trailer at Jackson Hole Automotive — the guy met us around 9:30 and figured the coolant fix would take about two hours. Church was right across the street, a small place called Cornerstone. It was super cute; they'd just wrapped their VBS the week before, so they did a little recap with the kids singing the songs they learned, hand motions and all.",
+        "After that we went back to the trailer, ate lunch, and hung out until 3, when he had us come down to the shop. Turned out the reason it overheated was that the cooling fan hadn't been working. While he was replacing the fuse for it, he accidentally popped a breaker and another fuse, so it turned into a bigger job — and the part he needs is Toyota-specific, which he couldn't get today. He's going to order it tomorrow and check whether the nearest town has one, then we'll come back to finish.",
+        "We left and drove back into Jackson for some grocery shopping, then headed into Grand Teton National Park and found a dispersed camping spot. Dinner was steak and Caesar salad with more of the rosé, and a beautiful view of the Tetons."
+      ],
+      "links": [
+        {
+          "label": "Grand Teton National Park",
+          "url": "https://www.nps.gov/grte/index.htm"
+        }
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1030.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1020.mp4",
+          "poster": "media/IMG_1020.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1023.mp4",
+          "poster": "media/IMG_1023.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1024.mp4",
+          "poster": "media/IMG_1024.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1025.mp4",
+          "poster": "media/IMG_1025.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1026.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1029.jpg",
           "by": "Evangeline"
         }
       ]
