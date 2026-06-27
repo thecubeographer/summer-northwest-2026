@@ -818,10 +818,10 @@ window.TRIP = {
       "title": "Jenny Lake, a haircut, and s'mores with new friends",
       "body": [
         "We got up early and drove over to Jenny Lake, hiked across to Hidden Falls, and caught the ferry back across the lake. A lovely way to start the day.",
-        "Then we drove into Jackson. I dropped Evangeline off to wander the shops while I went back to the mechanic to finally get the car finished which got done around two. meanwhile, Evangeline got a haircut while she waited.",
+        "Then we drove into Jackson. I dropped Evangeline off to wander the shops while I went back to the mechanic to finally get the car finished which got done around two. Meanwhile, Evangeline got a haircut while she waited.",
         "We swung by Ace Hardware for the replacement part for the generator, grabbed a few groceries, and headed back to camp. We tried to fix the generator that evening, but the part wasn't right — turns out it's a custom piece, so the whole generator needed to be swapped at Harbor Freight.",
         "Back at camp, Evangeline was on the phone with her mom and walking around the dispersed area when our friends Mason and Keira — who we'd met a few nights earlier — popped out of their trailer. We invited them over, and after dinner they came by for a campfire and s'mores. We hung out until about ten.",
-        "Right about then a car with four or five guys rolled up looking for a spot — they'd struck out everywhere — so we let them camp next to us. We eded up slightly  of regretted it; they were loud and laughing until almost midnight."
+        "Right about then a car with four or five guys rolled up looking for a spot — they'd struck out everywhere — so we let them camp next to us. We ended up regretting it a little; they were loud and laughing until almost midnight."
       ],
       "media": [
         {
@@ -890,7 +890,7 @@ window.TRIP = {
         "Our new neighbors were back at it at 5:30 a.m. loudly packing up and joking with each other. We gave up on sleeping in and got an early start.",
         "We packed up and headed north, into Yellowstone. We stopped at Old Faithful around lunchtime, watched it go off, and walked around the lodge.",
         "From there we kept north — fought the chaos for a parking spot at Grand Prismatic Spring (worth it), then drove up through Mammoth Hot Springs, which was gorgeous. We even got to see a really close-up bison.",
-        "We had dinner at a nice Mexican place in Gardiner, then carried on to Bozeman and stayed at the fairgrounds RV site. They only had 50-amp hookups and we only had 30-amp, so we made a  late night Lowe's run for an adapter to get our power going."
+        "We had dinner at a nice Mexican place in Gardiner, then carried on to Bozeman and stayed at the fairgrounds RV site. They only had 50-amp hookups and we only had 30-amp, so we made a late-night Lowe's run for an adapter to get our power going."
       ],
       "links": [
         {
@@ -1016,7 +1016,9 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A new generator, then on to Homestake Lake",
       "body": [
-        "We were able to sleep in at the Bozeman fairgrounds — a real treat — then took the generator over to the Harbor Freight in town. They were great about it and swapped it out, no hassle.\nFunny bonus: because we'd bought the original generator back in California, we'd paid sales tax on it, and they refunded us about forty bucks in cash. \nFrom there we drove about an hour and a half out to a dispersed spot near Homestake Lake, where we're camped tonight."
+        "We were able to sleep in at the Bozeman fairgrounds — a real treat — then took the generator over to the Harbor Freight in town. They were great about it and swapped it out, no hassle.",
+        "Funny bonus: because we'd bought the original generator back in California, we'd paid sales tax on it, and they refunded us about forty bucks in cash.",
+        "From there we drove about an hour and a half out to a dispersed spot near Homestake Lake, where we're camped tonight."
       ],
       "media": []
     }
