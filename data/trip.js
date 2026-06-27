@@ -61,6 +61,36 @@ window.TRIP = {
         "src": "media/highligh-08.jpg",
         "day": "Day 9",
         "caption": ""
+      },
+      {
+        "src": "media/road-0000000006.jpg",
+        "day": "Day 13",
+        "caption": ""
+      },
+      {
+        "src": "media/road-0000000007.jpg",
+        "day": "Day 13",
+        "caption": ""
+      },
+      {
+        "src": "media/road-0000000004.jpg",
+        "day": "Day 14",
+        "caption": ""
+      },
+      {
+        "src": "media/road-0000000005.jpg",
+        "day": "Day 14",
+        "caption": ""
+      },
+      {
+        "src": "media/road-0000000008.jpg",
+        "day": "Day 14",
+        "caption": ""
+      },
+      {
+        "src": "media/road-0000000009.jpg",
+        "day": "Day 14",
+        "caption": ""
       }
     ],
     "origin": {
@@ -667,6 +697,12 @@ window.TRIP = {
         {
           "src": "media/IMG_1017.jpg",
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260620_190935.mp4",
+          "poster": "media/20260620_190935.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
       ]
     },
@@ -729,8 +765,262 @@ window.TRIP = {
         {
           "src": "media/IMG_1029.jpg",
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260621_095549.mp4",
+          "poster": "media/20260621_095549.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
       ]
+    },
+    {
+      "day": "Day 12",
+      "date": "Monday, June 22",
+      "place": "Grand Teton NP — dispersed camp, WY",
+      "coords": [
+        43.66075,
+        -110.61576
+      ],
+      "dot": false,
+      "endLeg": "i",
+      "endFrac": 1,
+      "title": "An easy day waiting on a part",
+      "body": [
+        "After a stressful weekend, we took it easy. The mechanic was still waiting on our part — it had to come up from Salt Lake City — so we couldn't go anywhere yet, which honestly made for a really relaxing day.",
+        "We made a few reels for Instagram but barely took any regular photos. We stayed put at the same dispersed spot in the Tetons for another night.",
+        "That night we found another problem — the generator was leaking through its fuel line — so a replacement part went on the list too."
+      ],
+      "links": [
+        {
+          "label": "Our reels on Instagram",
+          "url": "https://www.instagram.com/joe.and.evangeline/"
+        }
+      ],
+      "media": [
+        {
+          "src": "media/20260622_215326.jpg",
+          "by": "Joseph"
+        }
+      ]
+    },
+    {
+      "day": "Day 13",
+      "date": "Tuesday, June 23",
+      "place": "Jenny Lake & Jackson, WY",
+      "coords": [
+        43.66075,
+        -110.61576
+      ],
+      "dot": false,
+      "endLeg": "i",
+      "endFrac": 1,
+      "title": "Jenny Lake, a haircut, and s'mores with new friends",
+      "body": [
+        "We got up early and drove over to Jenny Lake, hiked across to Hidden Falls, and caught the ferry back across the lake. A really nice way to start the day.",
+        "Then we drove into Jackson. I dropped Evangeline off to wander the shops while I went back to the mechanic to finally get the car finished — done around two. Evangeline got a haircut while she was at it, short again.",
+        "The generator had started leaking through its fuel line on Monday night, so we swung by Ace Hardware for a replacement part, grabbed a few groceries, and headed back to camp. We tried to fix it that evening, but the part wasn't right — turns out it's a custom piece, so the whole generator will have to go back to Harbor Freight to be swapped.",
+        "Back at camp, Evangeline was on the phone with her mom and walking around the dispersed area when our friends Mason and Keira — who we'd met a few nights earlier — popped out of their trailer. We invited them over, and after dinner they came by for a campfire and s'mores. We hung out until about ten.",
+        "Right about then a car with four or five guys rolled up looking for a spot — they'd struck out everywhere — so we let them camp next to us. We kind of regretted it; they were loud and laughing until almost midnight. We slept fine anyway."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1031.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1034.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1036.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1040.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1044.mp4",
+          "poster": "media/IMG_1044.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1048.mp4",
+          "poster": "media/IMG_1048.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1058.mp4",
+          "poster": "media/IMG_1058.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1065.mp4",
+          "poster": "media/IMG_1065.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/road-0000000006.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-0000000007.jpg",
+          "by": "Joseph"
+        }
+      ]
+    },
+    {
+      "day": "Day 14",
+      "date": "Wednesday, June 24",
+      "place": "Yellowstone → Bozeman, MT",
+      "coords": [
+        45.68854,
+        -111.0457
+      ],
+      "dot": true,
+      "endLeg": "j",
+      "endFrac": 1,
+      "title": "North through Yellowstone to Bozeman",
+      "body": [
+        "Our new neighbors were back at it at 5:30 a.m. — loud all over again — so we gave up on sleeping in and got an early start.",
+        "We packed up and headed north, following the highway the whole way into Yellowstone. We stopped at Old Faithful around lunchtime, watched it go off, and walked around the lodge.",
+        "From there we kept north — fought the chaos for a parking spot at Grand Prismatic Spring (worth it), then drove up through Mammoth Hot Springs, which was gorgeous. We even got a really close-up bison.",
+        "We had dinner at a nice Mexican place in Gardiner, then carried on to Bozeman and stayed at the fairgrounds RV site. They only had 50-amp hookups and we're 30-amp, so we made a Lowe's run for an adapter to get our power going."
+      ],
+      "links": [
+        {
+          "label": "Yellowstone National Park",
+          "url": "https://www.nps.gov/yell/index.htm"
+        }
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1076.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1075.mp4",
+          "poster": "media/IMG_1075.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1081.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1084.mp4",
+          "poster": "media/IMG_1084.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1086.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1102.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1109.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1110.mp4",
+          "poster": "media/IMG_1110.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1113.mp4",
+          "poster": "media/IMG_1113.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1114.mp4",
+          "poster": "media/IMG_1114.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/1000058649.mp4",
+          "poster": "media/1000058649.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1121.mp4",
+          "poster": "media/IMG_1121.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1124.mp4",
+          "poster": "media/IMG_1124.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/road-0000000004.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-0000000005.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-0000000008.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-0000000009.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260624_162403.mp4",
+          "poster": "media/20260624_162403.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260624_180414.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260624_200829.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260624_212903.jpg",
+          "by": "Joseph"
+        }
+      ]
+    },
+    {
+      "day": "Day 15",
+      "date": "Thursday, June 25",
+      "place": "Bozeman → Homestake Lake, MT",
+      "coords": [
+        45.9601,
+        -112.41864
+      ],
+      "dot": true,
+      "endLeg": "k",
+      "endFrac": 1,
+      "title": "A new generator, then on to Homestake Lake",
+      "body": [
+        "We slept in at the Bozeman fairgrounds — a real treat — then took the generator over to the Harbor Freight in town. They were great about it and swapped it out, no hassle.",
+        "Funny bonus: because we'd bought the original generator back in California, we'd paid sales tax on it, and they refunded us about forty bucks in cash. We'll take it.",
+        "From there we drove about an hour and a half out to a dispersed spot near Homestake Lake, where we're camped tonight."
+      ],
+      "media": []
     }
   ]
 };

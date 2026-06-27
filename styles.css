@@ -29,6 +29,15 @@ a{color:inherit}
 .badge{position:fixed;left:14px;bottom:14px;z-index:1200;background:var(--ink);color:#f3ede2;
   font:500 12px/1 var(--sans);letter-spacing:.02em;padding:9px 13px;border-radius:999px;opacity:.92}
 
+/* "Jump to latest" — top-center, only while the hero is in view */
+.jump-latest{position:fixed;top:18px;left:50%;transform:translateX(-50%) translateY(-10px);z-index:1400;
+  border:0;cursor:pointer;background:rgba(20,18,15,.6);color:#fbf7ef;
+  font:600 13px/1 var(--sans);letter-spacing:.04em;padding:11px 18px;border-radius:999px;
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);box-shadow:0 4px 16px rgba(0,0,0,.3);
+  opacity:0;pointer-events:none;transition:opacity .32s ease,transform .32s ease}
+.jump-latest.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.jump-latest:hover{background:rgba(20,18,15,.8)}
+
 /* ---------- cover: masthead over the photo ---------- */
 .cover{position:relative;height:92vh;min-height:520px;overflow:hidden}
 .cover-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}

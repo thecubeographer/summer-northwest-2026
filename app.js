@@ -123,7 +123,7 @@
 
   /* ================= map: pin follows the traced road ================= */
   var hasRoute = !!(ROUTE && ROUTE.a && ROUTE.a.length);
-  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
+  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"];
   var LEGS = hasRoute ? LEGORDER.filter(function (k) { return ROUTE[k] && ROUTE[k].length; }) : [];
   var P = [], legStart = {};
   if (hasRoute) { LEGS.forEach(function (k) { legStart[k] = P.length; P = P.concat(ROUTE[k]); }); }
@@ -246,6 +246,23 @@
       if (!mapCollapsed) setTimeout(function () { map.invalidateSize(); if (clusterBounds.isValid()) map.flyToBounds(mapMode === "zoom" ? clusterBounds : wideBounds, { padding: [55, 55] }); onScroll(); }, 290);
     };
     mw.appendChild(btn);
+  })();
+
+  // "Jump to latest" — shown on the hero, hidden once you scroll to Day 1
+  (function () {
+    var posts = document.querySelectorAll(".post");
+    if (posts.length < 2) return;
+    var first = posts[0], latest = posts[posts.length - 1];
+    var jb = document.createElement("button");
+    jb.className = "jump-latest"; jb.type = "button"; jb.textContent = "Jump to latest";
+    jb.addEventListener("click", function () {
+      window.scrollTo({ top: latest.getBoundingClientRect().top + window.scrollY - 8, behavior: "smooth" });
+    });
+    document.body.appendChild(jb);
+    function updJump() { jb.classList.toggle("show", first.getBoundingClientRect().top > 110); }
+    window.addEventListener("scroll", updJump, { passive: true });
+    window.addEventListener("resize", updJump);
+    updJump();
   })();
 
   window.__trip = { map: map, pin: pin, setActive: setActive, sections: sections, pointAt: pointAt, secEnd: secEnd, total: TOTAL };

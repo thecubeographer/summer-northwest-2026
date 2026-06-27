@@ -8,3 +8,6 @@ media/.tmp/
 # macOS cruft
 .DS_Store
 **/.DS_Store
+
+# never track original-file subfolders dumped into media/ (web copies live flat in media/)
+media/*/
