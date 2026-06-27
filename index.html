@@ -9,11 +9,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="styles.css?v=14">
+<link rel="stylesheet" href="styles.css?v=15">
 <link rel="stylesheet" href="editor.css?v=1">
 </head>
 <body>
-  <div id="loader" class="loader"><div class="loader-box"><div class="lt">Summer Northwest 2026</div><div class="loader-spin"></div></div></div>
+  <div id="loader" class="loader">
+    <div class="loader-bg" id="loaderBg"></div>
+    <div class="loader-box">
+      <div class="lt">Summer Northwest 2026</div>
+      <div class="loader-bar"><span id="loaderBarFill"></span></div>
+      <div class="loader-quote" id="loaderQuote"><span class="lq-text"></span><span class="lq-by">— Joseph &amp; Evangeline</span></div>
+    </div>
+  </div>
 
   <header class="cover" id="cover"></header>
 
@@ -39,16 +46,59 @@
       s.src = edit ? "editor.js?v=3" : "app.js?v=22";
       document.body.appendChild(s);
 
-      /* loading screen: hold until the first 3 highlight photos load (skipped in editor) */
+      /* loading screen: preload the hero (cover + all highlights + all of Day 1's photos & videos)
+         before revealing the site. If the wait passes 3s, fade in a dimmed photo + rotating quotes. */
       var loader = document.getElementById("loader");
       if (loader) {
-        var hideLoader = function () { loader.classList.add("hide"); setTimeout(function () { if (loader.parentNode) loader.parentNode.removeChild(loader); }, 650); };
-        var hl = edit ? [] : (((window.TRIP || {}).meta || {}).highlights || []).slice(0, 3);
-        if (!hl.length) { hideLoader(); }
+        var hideLoader = function () { loader.classList.add("hide"); setTimeout(function () { if (loader.parentNode) loader.parentNode.removeChild(loader); }, 700); };
+        if (edit) { hideLoader(); }
         else {
-          var got = 0, done = false, fin = function () { if (done) return; done = true; hideLoader(); };
-          hl.forEach(function (h) { var im = new Image(); im.onload = im.onerror = function () { if (++got >= hl.length) fin(); }; im.src = h.src; });
-          setTimeout(fin, 7000);  // safety: never hang
+          var TR = window.TRIP || {}, meta = TR.meta || {}, items = [];
+          if (meta.cover) items.push({ t: "img", s: meta.cover });
+          (meta.highlights || []).forEach(function (h) { items.push({ t: "img", s: h.src }); });
+          var d1 = ((TR.sections || [])[0] || {}).media || [];
+          d1.forEach(function (m) {
+            if (m.video) { if (m.poster) items.push({ t: "img", s: m.poster }); items.push({ t: "vid", s: m.src }); }
+            else items.push({ t: "img", s: m.src });
+          });
+          var total = items.length, done = 0, finished = false, bar = document.getElementById("loaderBarFill");
+          var finishAll = function () { if (finished) return; finished = true; if (bar) bar.style.width = "100%"; hideLoader(); };
+          var tick = function () { done++; if (bar) bar.style.width = Math.round(done / total * 100) + "%"; if (done >= total) finishAll(); };
+          if (!total) { finishAll(); }
+          else {
+            items.forEach(function (it) {
+              if (it.t === "img") { var im = new Image(); im.onload = im.onerror = tick; im.src = it.s; }
+              else {
+                var v = document.createElement("video"); v.muted = true; v.preload = "auto";
+                var vd = false, vf = function () { if (vd) return; vd = true; tick(); };
+                v.addEventListener("canplaythrough", vf); v.addEventListener("loadeddata", vf); v.addEventListener("error", vf);
+                setTimeout(vf, 9000); v.src = it.s; v.load();
+              }
+            });
+            setTimeout(finishAll, 16000);  // overall safety cap
+          }
+          /* after 3s, if still loading, make the wait fun */
+          setTimeout(function () {
+            if (finished) return;
+            var bg = document.getElementById("loaderBg");
+            if (bg && meta.cover) { bg.style.backgroundImage = "url('" + meta.cover + "')"; bg.classList.add("show"); }
+            var qEl = document.getElementById("loaderQuote"); if (!qEl) return;
+            var txt = qEl.querySelector(".lq-text");
+            var quotes = [
+              "Currently held together by zip ties and rosé.",
+              "1,800 miles, two phones, one very patient marriage.",
+              "The generator works now. We think.",
+              "Powered by gas-station snacks and spotty Starlink.",
+              "Still scraping bugs off the windshield.",
+              "Hang on — loading the good part.",
+              "Worth the drive. We promise.",
+              "Somewhere between a gas station and a glacier."
+            ];
+            var i = Math.floor(Math.random() * quotes.length);
+            var showQ = function () { if (finished) return; txt.textContent = quotes[i % quotes.length]; qEl.classList.add("show"); i++; };
+            showQ();
+            var iv = setInterval(function () { if (finished) { clearInterval(iv); return; } qEl.classList.remove("show"); setTimeout(showQ, 480); }, 3600);
+          }, 3000);
         }
       }
     })();
