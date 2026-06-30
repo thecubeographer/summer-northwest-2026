@@ -1021,6 +1021,86 @@ window.TRIP = {
         "From there we drove about an hour and a half out to a dispersed spot near Homestake Lake, where we're camped tonight."
       ],
       "media": []
+    },
+    {
+      "day": "Day 16",
+      "date": "Friday, June 26",
+      "place": "Homestake Lake → Flathead Lake, MT",
+      "coords": [
+        47.94846,
+        -114.03015
+      ],
+      "dot": true,
+      "endLeg": "l",
+      "endFrac": 1,
+      "title": "A slow day up to Flathead Lake",
+      "body": [
+        "We had a nice slow start — relaxed all morning at our pretty campsite and made a fantastic breakfast before getting on the road.",
+        "We drove up to Missoula, stopped for groceries, then kept going north to Flathead Lake. We took the east side and camped next to a trailhead — kind of a pull-off right on the main road, but tucked back in the trees and secluded. We could hear the creek rushing next to us all night. A slow, peaceful day."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 17",
+      "date": "Saturday, June 27",
+      "place": "Flathead Lake → Glacier NP, MT",
+      "coords": [
+        48.38068,
+        -114.11603
+      ],
+      "dot": true,
+      "endLeg": "m",
+      "endFrac": 1,
+      "title": "Glacier with the Reinhardts",
+      "body": [
+        "We got up and drove about 45 minutes to John and Renée Reinhardt, who are hosting us while we explore the Glacier area. We visited for a bit — I'd never met them, and it had been a while since Evangeline had seen them.",
+        "Then Evangeline and I had lunch and headed up to Glacier National Park. We saw Lake McDonald and the beautiful lodge there — someone was playing piano inside. From there we drove Going-to-the-Sun Road, stopping at the pull-offs for photos. We spotted two deer, two mountain goats, and a bear off in the distance behind some trees. Such a good day exploring.",
+        "It's still Evangeline's favorite national park, and it became my new favorite too. We had dinner in Hungry Horse — with huckleberry ice cream for dessert — then came back and camped at the Reinhardts' for the night."
+      ],
+      "links": [
+        {
+          "label": "Glacier National Park",
+          "url": "https://www.nps.gov/glac/index.htm"
+        }
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 18",
+      "date": "Sunday, June 28",
+      "place": "Columbia Falls, MT",
+      "coords": [
+        48.38068,
+        -114.11603
+      ],
+      "dot": false,
+      "endLeg": "m",
+      "endFrac": 1,
+      "title": "A restful Sunday",
+      "body": [
+        "We went to church with the Reinhardts at their local church, then came back and had lunch with them. The afternoon was restful — Evangeline took a nap and I worked on a few projects.",
+        "The Reinhardts wanted a quiet evening to themselves after all their recent traveling, so Evangeline and I settled in for a movie night in the trailer."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 19",
+      "date": "Monday, June 29",
+      "place": "Whitefish, MT",
+      "coords": [
+        48.38068,
+        -114.11603
+      ],
+      "dot": false,
+      "endLeg": "m",
+      "endFrac": 1,
+      "title": "Whitefish, and a dress we'll come back for",
+      "body": [
+        "We headed into Whitefish, which has a gorgeous main street full of shops. I tried to work from a coffee shop for a bit, but the wifi wasn't great, so I ended up back at the car while Evangeline walked the shops.",
+        "She found a really cute vintage shop with the most beautiful, dreamy pink princess dress — absolutely stunning. She didn't buy it, even though she wanted to, so we talked it over and decided we'll come back for it when we get the chance; it's just too pretty to leave behind.",
+        "Then we stopped at TJ Maxx so Evangeline could find some pants that fit — the baby bump is starting to outgrow her current ones. We found a few that work, and capped the day with a nice dinner and evening with the Reinhardts."
+      ],
+      "media": []
     }
   ]
 };
