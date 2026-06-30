@@ -93,22 +93,22 @@ window.TRIP = {
         "caption": ""
       },
       {
-        "src": "media/road-00000000022.jpg",
+        "src": "media/road-00000000015.jpg",
         "day": "Day 17",
         "caption": ""
       },
       {
-        "src": "media/road-00000000018.jpg",
+        "src": "media/road-00000000017.jpg",
         "day": "Day 17",
         "caption": ""
       },
       {
-        "src": "media/road-00000000014.jpg",
+        "src": "media/road-00000000019.jpg",
         "day": "Day 17",
         "caption": ""
       },
       {
-        "src": "media/road-00000000011.jpg",
+        "src": "media/road-00000000021.jpg",
         "day": "Day 17",
         "caption": ""
       }
