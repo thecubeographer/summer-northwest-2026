@@ -91,6 +91,26 @@ window.TRIP = {
         "src": "media/road-0000000009.jpg",
         "day": "Day 14",
         "caption": ""
+      },
+      {
+        "src": "media/road-00000000022.jpg",
+        "day": "Day 17",
+        "caption": ""
+      },
+      {
+        "src": "media/road-00000000018.jpg",
+        "day": "Day 17",
+        "caption": ""
+      },
+      {
+        "src": "media/road-00000000014.jpg",
+        "day": "Day 17",
+        "caption": ""
+      },
+      {
+        "src": "media/road-00000000011.jpg",
+        "day": "Day 17",
+        "caption": ""
       }
     ],
     "origin": {
@@ -1038,7 +1058,14 @@ window.TRIP = {
         "We had a nice slow start — relaxed all morning at our pretty campsite and made a fantastic breakfast before getting on the road.",
         "We drove up to Missoula, stopped for groceries, then kept going north to Flathead Lake. We took the east side and camped next to a trailhead — kind of a pull-off right on the main road, but tucked back in the trees and secluded. We could hear the creek rushing next to us all night. A slow, peaceful day."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1133.mp4",
+          "poster": "media/IMG_1133.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 17",
@@ -1063,7 +1090,106 @@ window.TRIP = {
           "url": "https://www.nps.gov/glac/index.htm"
         }
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/road-00000000022.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000021.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000020.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000019.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1138.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/road-00000000018.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000017.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000016.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000015.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000014.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000013.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000012.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1147.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/road-00000000011.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1155.mp4",
+          "poster": "media/IMG_1155.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1183.mp4",
+          "poster": "media/IMG_1183.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1188.mp4",
+          "poster": "media/IMG_1188.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1198.mp4",
+          "poster": "media/IMG_1198.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1216.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1222.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1224.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1227.mp4",
+          "poster": "media/IMG_1227.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 18",
@@ -1100,7 +1226,14 @@ window.TRIP = {
         "She found a really cute vintage shop with the most beautiful, dreamy pink princess dress — absolutely stunning. She didn't buy it, even though she wanted to, so we talked it over and decided we'll come back for it when we get the chance; it's just too pretty to leave behind.",
         "Then we stopped at TJ Maxx so Evangeline could find some pants that fit — the baby bump is starting to outgrow her current ones. We found a few that work, and capped the day with a nice dinner and evening with the Reinhardts."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1246.mp4",
+          "poster": "media/IMG_1246.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     }
   ]
 };
