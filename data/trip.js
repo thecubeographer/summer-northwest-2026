@@ -1078,11 +1078,11 @@ window.TRIP = {
       "dot": true,
       "endLeg": "m",
       "endFrac": 1,
-      "title": "Glacier with the Reinhardts",
+      "title": "Glacier with the Rineharts",
       "body": [
-        "We got up and drove about 45 minutes to John and Renée Reinhardt, who are hosting us while we explore the Glacier area. We visited for a bit — I'd never met them, and it had been a while since Evangeline had seen them.",
+        "We got up and drove about 45 minutes to John and Renée Rinehart, who are hosting us while we explore the Glacier area. We visited for a bit — I'd never met them, and it had been a while since Evangeline had seen them.",
         "Then Evangeline and I had lunch and headed up to Glacier National Park. We saw Lake McDonald and the beautiful lodge there — someone was playing piano inside. From there we drove Going-to-the-Sun Road, stopping at the pull-offs for photos. We spotted two deer, two mountain goats, and a bear off in the distance behind some trees. Such a good day exploring.",
-        "It's still Evangeline's favorite national park, and it became my new favorite too. We had dinner in Hungry Horse — with huckleberry ice cream for dessert — then came back and camped at the Reinhardts' for the night."
+        "It's still Evangeline's favorite national park, and it became my new favorite too. We had dinner in Hungry Horse — with huckleberry ice cream for dessert — then came back and camped at the Rineharts' for the night."
       ],
       "links": [
         {
@@ -1204,10 +1204,17 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A restful Sunday",
       "body": [
-        "We went to church with the Reinhardts at their local church, then came back and had lunch with them. The afternoon was restful — Evangeline took a nap and I worked on a few projects.",
-        "The Reinhardts wanted a quiet evening to themselves after all their recent traveling, so Evangeline and I settled in for a movie night in the trailer."
+        "We went to church with the Rineharts at their local church, then came back and had lunch with them. The afternoon was restful — Evangeline took a nap and I worked on a few projects.",
+        "One of the best parts of the whole stay was getting to know John. He and Renée run Gospel Patrons — a ministry that comes alongside business leaders and encourages them to fund gospel work, on the idea that generosity really can change the world. He also showed us a book he's working on, and I loved getting to learn about all the design that goes into it. We talked a lot about purpose — how to make the most of our time here and do some good for God's kingdom while we're at it. Genuinely refreshing.",
+        "The Rineharts wanted a quiet evening to themselves after all their recent traveling, so Evangeline and I settled in for a movie night in the trailer."
       ],
-      "media": []
+      "media": [],
+      "links": [
+        {
+          "label": "Gospel Patrons — John's ministry",
+          "url": "https://www.gospelpatrons.org/"
+        }
+      ]
     },
     {
       "day": "Day 19",
@@ -1224,7 +1231,7 @@ window.TRIP = {
       "body": [
         "We headed into Whitefish, which has a gorgeous main street full of shops. I tried to work from a coffee shop for a bit, but the wifi wasn't great, so I ended up back at the car while Evangeline walked the shops.",
         "She found a really cute vintage shop with the most beautiful, dreamy pink princess dress — absolutely stunning. She didn't buy it, even though she wanted to, so we talked it over and decided we'll come back for it when we get the chance; it's just too pretty to leave behind.",
-        "Then we stopped at TJ Maxx so Evangeline could find some pants that fit — the baby bump is starting to outgrow her current ones. We found a few that work, and capped the day with a nice dinner and evening with the Reinhardts."
+        "Then we stopped at TJ Maxx so Evangeline could find some pants that fit — the baby bump is starting to outgrow her current ones. We found a few that work, and capped the day with a nice dinner and evening with the Rineharts."
       ],
       "media": [
         {
@@ -1232,6 +1239,31 @@ window.TRIP = {
           "poster": "media/IMG_1246.poster.jpg",
           "video": true,
           "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 20",
+      "date": "Tuesday, June 30",
+      "place": "Whitefish, MT",
+      "coords": [
+        48.38068,
+        -114.11603
+      ],
+      "dot": false,
+      "endLeg": "m",
+      "endFrac": 1,
+      "title": "Glacier's flooded, so: the dress, and AC at last",
+      "body": [
+        "We'd hoped to get back into Glacier today, but it was flooded — so we changed plans and went into town instead, where we finally bought the dress Evangeline had fallen for in Whitefish. We said we'd come back for it, and we did.",
+        "Back at the trailer, the part for the car's AC had finally come in, so I got it installed — we have air conditioning again, which is a huge relief. After that I worked, Evangeline made a delicious soup for dinner, we cleaned up, and I stayed up working late to catch up on a few things."
+      ],
+      "media": [
+        {
+          "src": "media/road-00000000010.mp4",
+          "poster": "media/road-00000000010.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
       ]
     }
