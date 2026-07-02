@@ -123,7 +123,7 @@
 
   /* ================= map: pin follows the traced road ================= */
   var hasRoute = !!(ROUTE && ROUTE.a && ROUTE.a.length);
-  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"];
+  var LEGORDER = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"];
   var LEGS = hasRoute ? LEGORDER.filter(function (k) { return ROUTE[k] && ROUTE[k].length; }) : [];
   var P = [], legStart = {};
   if (hasRoute) { LEGS.forEach(function (k) { legStart[k] = P.length; P = P.concat(ROUTE[k]); }); }

@@ -35,15 +35,15 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="data/route.js?v=7"></script>
-  <script src="data/trip.js?v=29"></script>
+  <script src="data/route.js?v=8"></script>
+  <script src="data/trip.js?v=30"></script>
   <script>
     /* edit mode (?edit) loads the editor; otherwise the normal read-only site */
     (function () {
       var local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
       var edit = local && new URLSearchParams(location.search).has("edit");  // editing is local-only
       var s = document.createElement("script");
-      s.src = edit ? "editor.js?v=3" : "app.js?v=23";
+      s.src = edit ? "editor.js?v=3" : "app.js?v=24";
       document.body.appendChild(s);
 
       /* loading screen: preload the hero (cover + all highlights + all of Day 1's photos & videos)

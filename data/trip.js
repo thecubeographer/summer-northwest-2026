@@ -1256,7 +1256,8 @@ window.TRIP = {
       "title": "Glacier's flooded, so: the dress, and AC at last",
       "body": [
         "We'd hoped to get back into Glacier today, but it was flooded — so we changed plans and went into town instead, where we finally bought the dress Evangeline had fallen for in Whitefish. We said we'd come back for it, and we did.",
-        "Back at the trailer, the part for the car's AC had finally come in, so I got it installed — we have air conditioning again, which is a huge relief. After that I worked, Evangeline made a delicious soup for dinner, we cleaned up, and I stayed up working late to catch up on a few things."
+        "Back at the trailer, the part for the car's AC had finally come in, so I got it installed — we have air conditioning again, which is a huge relief. After that I worked, Evangeline made a delicious soup for dinner, we cleaned up, and I stayed up working late to catch up on a few things.",
+        "We finished the night watching Avatar: Fire and Ash — it had just come out on Disney+ — a nice way to wind down before bed."
       ],
       "media": [
         {
@@ -1264,6 +1265,73 @@ window.TRIP = {
           "poster": "media/road-00000000010.poster.jpg",
           "video": true,
           "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1257.mp4",
+          "poster": "media/IMG_1257.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1258.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1259.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 21",
+      "date": "Wednesday, July 1",
+      "place": "Flathead Valley → river camp, MT",
+      "coords": [
+        47.6939,
+        -114.16341
+      ],
+      "dot": true,
+      "endLeg": "n",
+      "endFrac": 1,
+      "title": "Leaving the Rineharts, back down the lake",
+      "body": [
+        "We packed up the trailer and said goodbye to the Rineharts — a really nice sendoff. We signed their guest book, which was fun, and John prayed over us before we pulled out.",
+        "Then we got on the road, driving a couple hours back down the other side of Flathead Lake. We stopped for fuel, filled the tank, dumped the black water, and kept going until we reached a town — found a parking spot at a gas station, made lunch there, and Evangeline took a nap while I worked.",
+        "From there I drove another 20 minutes to a cute little town, where we grabbed a mouse trap (we've still got a mouse) and did some grocery shopping. We kept on a bit further and stumbled onto a fun touristy stop — a little mini-aquarium and a tourist shop — and by then it was evening.",
+        "Ten more minutes down some dirt roads got us to tonight's spot: a beautiful, super-secluded pull-out right next to a river. The weather's great, though not sunny enough for the solar to keep up, so we're conserving power — but that's just fine."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1260.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1262.mp4",
+          "poster": "media/IMG_1262.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1264.mp4",
+          "poster": "media/IMG_1264.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1269.mp4",
+          "poster": "media/IMG_1269.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1275.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1277.mp4",
+          "poster": "media/IMG_1277.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
         }
       ]
     }
