@@ -1070,10 +1070,10 @@ window.TRIP = {
     {
       "day": "Day 17",
       "date": "Saturday, June 27",
-      "place": "Flathead Lake → Glacier NP, MT",
+      "place": "Kalispell → Glacier NP, MT",
       "coords": [
-        48.38068,
-        -114.11603
+        48.19582,
+        -114.31291
       ],
       "dot": true,
       "endLeg": "m",
@@ -1194,10 +1194,10 @@ window.TRIP = {
     {
       "day": "Day 18",
       "date": "Sunday, June 28",
-      "place": "Columbia Falls, MT",
+      "place": "Kalispell, MT",
       "coords": [
-        48.38068,
-        -114.11603
+        48.19582,
+        -114.31291
       ],
       "dot": false,
       "endLeg": "m",
@@ -1221,8 +1221,8 @@ window.TRIP = {
       "date": "Monday, June 29",
       "place": "Whitefish, MT",
       "coords": [
-        48.38068,
-        -114.11603
+        48.19582,
+        -114.31291
       ],
       "dot": false,
       "endLeg": "m",
@@ -1247,8 +1247,8 @@ window.TRIP = {
       "date": "Tuesday, June 30",
       "place": "Whitefish, MT",
       "coords": [
-        48.38068,
-        -114.11603
+        48.19582,
+        -114.31291
       ],
       "dot": false,
       "endLeg": "m",
@@ -1285,10 +1285,10 @@ window.TRIP = {
     {
       "day": "Day 21",
       "date": "Wednesday, July 1",
-      "place": "Flathead Valley → river camp, MT",
+      "place": "Kalispell → St. Regis, MT",
       "coords": [
-        47.6939,
-        -114.16341
+        47.30193,
+        -115.09405
       ],
       "dot": true,
       "endLeg": "n",
@@ -1297,8 +1297,8 @@ window.TRIP = {
       "body": [
         "We packed up the trailer and said goodbye to the Rineharts — a really nice sendoff. We signed their guest book, which was fun, and John prayed over us before we pulled out.",
         "Then we got on the road, driving a couple hours back down the other side of Flathead Lake. We stopped for fuel, filled the tank, dumped the black water, and kept going until we reached a town — found a parking spot at a gas station, made lunch there, and Evangeline took a nap while I worked.",
-        "From there I drove another 20 minutes to a cute little town, where we grabbed a mouse trap (we've still got a mouse) and did some grocery shopping. We kept on a bit further and stumbled onto a fun touristy stop — a little mini-aquarium and a tourist shop — and by then it was evening.",
-        "Ten more minutes down some dirt roads got us to tonight's spot: a beautiful, super-secluded pull-out right next to a river. The weather's great, though not sunny enough for the solar to keep up, so we're conserving power — but that's just fine."
+        "From there I drove another 20 minutes to the little town of Plains, where we grabbed a mouse trap (we've still got a mouse) and did some grocery shopping. We kept on a bit further and stumbled onto a fun touristy stop — a little mini-aquarium and a tourist shop — and by then it was evening.",
+        "Ten more minutes down some dirt roads got us to tonight's spot near St. Regis: a beautiful, super-secluded pull-out right next to a river. The weather's great, though not sunny enough for the solar to keep up, so we're conserving power — but that's just fine."
       ],
       "media": [
         {
