@@ -1334,6 +1334,62 @@ window.TRIP = {
           "by": "Evangeline"
         }
       ]
+    },
+    {
+      "day": "Day 22",
+      "date": "Thursday, July 2",
+      "place": "St. Regis, MT → Coeur d'Alene, ID",
+      "coords": [
+        47.67757,
+        -116.78051
+      ],
+      "dot": true,
+      "endLeg": "o",
+      "endFrac": 1,
+      "title": "Into Idaho, and Professor Foley's",
+      "body": [
+        "We drove from St. Regis over to Coeur d'Alene, Idaho. There was roadwork every few miles along the highway, which slowed us down, but we rolled into town around midday.",
+        "We stopped by the hand-to-hand combat training center to see Professor Foley — Evangeline's dad's karate instructor. He gave us a tour (I'd never seen it before), then Evangeline and I ducked out for smoothies for lunch. We came back and spent the whole afternoon hanging out with the professor and listening to his stories.",
+        "That evening we parked in the Safeway lot, did our grocery shopping, and grabbed ten bucks' worth of fireworks from the stand next door."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 23",
+      "date": "Friday, July 3",
+      "place": "Coeur d'Alene, ID",
+      "coords": [
+        47.67757,
+        -116.78051
+      ],
+      "dot": false,
+      "endLeg": "o",
+      "endFrac": 1,
+      "title": "Old European breakfast, and our wedding dance",
+      "body": [
+        "We met the professor for breakfast at the Old European — a Coeur d'Alene classic, kind of their version of Placerville's Sweetie Pies. Then we drove the RV over to his house, parked, and got settled in.",
+        "Evangeline took a nap, and afterward we headed to a local riverside park. We thought about swimming, but it was cloudy and not quite warm enough — so instead we had a fun afternoon learning to play German Whist, practicing our wedding dance (trying to remember how it goes), and working through some junk food. We spent the evening in the trailer with a movie night."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 24",
+      "date": "Saturday, July 4",
+      "place": "Coeur d'Alene, ID",
+      "coords": [
+        47.67757,
+        -116.78051
+      ],
+      "dot": false,
+      "endLeg": "o",
+      "endFrac": 1,
+      "title": "Fourth of July in Coeur d'Alene",
+      "body": [
+        "For the Fourth, we headed down to downtown Coeur d'Alene and caught the American Heroes parade, then went for sushi with Professor Foley — we ended up staying almost two and a half hours, just talking over the food.",
+        "We came back to the trailer to refresh, then headed back downtown for the fireworks over the lake, right in the heart of town. It was about a half-hour show that wrapped up around 10:30 — but with the crowds, it took us a solid 45 minutes just to get out of the downtown gridlock, and we didn't get home until a little after 11:30.",
+        "Once we were back, we set off our own little fireworks — honestly impressive for three bucks apiece — and had some ice cream to cap the night. Evangeline went with bubblegum, and I got a root-beer float."
+      ],
+      "media": []
     }
   ]
 };
