@@ -1352,7 +1352,20 @@ window.TRIP = {
         "We stopped by the hand-to-hand combat training center to see Professor Foley — Evangeline's dad's karate instructor. He gave us a tour (I'd never seen it before), then Evangeline and I ducked out for smoothies for lunch. We came back and spent the whole afternoon hanging out with the professor and listening to his stories.",
         "That evening we parked in the Safeway lot, did our grocery shopping, and grabbed ten bucks' worth of fireworks from the stand next door."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1291.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1298.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1299.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 23",
@@ -1370,7 +1383,18 @@ window.TRIP = {
         "We met the professor for breakfast at the Old European — a Coeur d'Alene classic, kind of their version of Placerville's Sweetie Pies. Then we drove the RV over to his house, parked, and got settled in.",
         "Evangeline took a nap, and afterward we headed to a local riverside park. We thought about swimming, but it was cloudy and not quite warm enough — so instead we had a fun afternoon learning to play German Whist, practicing our wedding dance (trying to remember how it goes), and working through some junk food. We spent the evening in the trailer with a movie night."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/2C5A6162.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1305.mp4",
+          "poster": "media/IMG_1305.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 24",
@@ -1389,7 +1413,50 @@ window.TRIP = {
         "We came back to the trailer to refresh, then headed back downtown for the fireworks over the lake, right in the heart of town. It was about a half-hour show that wrapped up around 10:30 — but with the crowds, it took us a solid 45 minutes just to get out of the downtown gridlock, and we didn't get home until a little after 11:30.",
         "Once we were back, we set off our own little fireworks — honestly impressive for three bucks apiece — and had some ice cream to cap the night. Evangeline went with bubblegum, and I got a root-beer float."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1312.mp4",
+          "poster": "media/IMG_1312.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1313.mp4",
+          "poster": "media/IMG_1313.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1316.mp4",
+          "poster": "media/IMG_1316.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1323.mp4",
+          "poster": "media/IMG_1323.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1326.mp4",
+          "poster": "media/IMG_1326.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1332.mp4",
+          "poster": "media/IMG_1332.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1333.mp4",
+          "poster": "media/IMG_1333.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     }
   ]
 };
