@@ -1457,6 +1457,189 @@ window.TRIP = {
           "by": "Evangeline"
         }
       ]
+    },
+    {
+      "day": "Day 25",
+      "date": "Sunday, July 5",
+      "place": "Coeur d'Alene, ID → Leavenworth, WA",
+      "coords": [
+        47.59618,
+        -120.66147
+      ],
+      "dot": true,
+      "endLeg": "p",
+      "endFrac": 1,
+      "title": "Church, then west into Washington",
+      "body": [
+        "We had breakfast at the Mexican restaurant with Professor Foley one more time, then went to church with him before packing up in Coeur d'Alene.",
+        "From there we headed west — through Spokane and onto Highway 2, following it all the way over toward Leavenworth. We spent the night in a pullout along the highway, right next to a pretty river."
+      ],
+      "media": [
+        {
+          "src": "media/road-00000000027.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1335.mp4",
+          "poster": "media/IMG_1335.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1342.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1344.mp4",
+          "poster": "media/IMG_1344.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 26",
+      "date": "Monday, July 6",
+      "place": "Leavenworth → Lake Chelan, WA",
+      "coords": [
+        47.84082,
+        -120.0165
+      ],
+      "dot": true,
+      "endLeg": "q",
+      "endFrac": 1,
+      "title": "Leavenworth, and an alpine coaster",
+      "body": [
+        "In the morning we went down to explore Leavenworth. There were no RV spots downtown, so we parked about two miles out and took the free shuttle in to walk around — I picked up a pretty crystal ornament as a souvenir.",
+        "That evening we rode the alpine roller coaster, which was a blast. Then we drove toward Lake Chelan and camped at a pullout along Highway 97 near Winesap."
+      ],
+      "media": [
+        {
+          "src": "media/road-00000000023.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000024.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000025.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/road-00000000026.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1357.mp4",
+          "poster": "media/IMG_1357.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1366.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1369.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1376.mp4",
+          "poster": "media/IMG_1376.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1380.mp4",
+          "poster": "media/IMG_1380.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1382.mp4",
+          "poster": "media/IMG_1382.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1390.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1433.mp4",
+          "poster": "media/IMG_1433.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 27",
+      "date": "Tuesday, July 7",
+      "place": "Chelan → Carlton (Methow Valley), WA",
+      "coords": [
+        48.20474,
+        -120.18664
+      ],
+      "dot": true,
+      "endLeg": "r",
+      "endFrac": 1,
+      "title": "Chelan, then the Gibsons' ranch",
+      "body": [
+        "We drove into Chelan and had the brakes checked at Les Schwab, then spent a fun morning at a local beach and park — swimming, badminton (which left my arm surprisingly sore), and cards.",
+        "When we left, we paid for our parking spot — but apparently we were supposed to pay for each spot we took up, so the trailer earned us a parking ticket. From there we carried on up Highway 97 and onto the Methow Valley Highway near Carlton, where Bob and Betty Gibson — old family friends of Evangeline's — live on Dove Mountain Ranch.",
+        "They hosted us for the night, and it was really sweet to catch up. Evangeline hadn't been back since she was a little girl, though she'd visited plenty as a kid, so it was fun to see the old homestead again."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1434.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 28",
+      "date": "Wednesday, July 8",
+      "place": "Winthrop → Hwy 20 (North Cascades), WA",
+      "coords": [
+        48.54966,
+        -120.63087
+      ],
+      "dot": true,
+      "endLeg": "s",
+      "endFrac": 1,
+      "title": "Winthrop treats, and up Highway 20",
+      "body": [
+        "After a yummy breakfast at the Gibsons', we left and headed north into Winthrop, where we treated ourselves to ice cream and apple fritters — both fantastic.",
+        "From there we kept climbing up into the mountains on Highway 20 and parked at the Canyon Creek trailhead for the night, where we cooked a good soup next to a pretty river."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1440.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1442.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1447.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1456.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1458.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1461.jpg",
+          "by": "Evangeline"
+        }
+      ]
     }
   ]
 };
