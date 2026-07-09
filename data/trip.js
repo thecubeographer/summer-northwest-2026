@@ -1279,6 +1279,10 @@ window.TRIP = {
         {
           "src": "media/IMG_1259.jpg",
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260630_162218.jpg",
+          "by": "Joseph"
         }
       ]
     },
@@ -1332,6 +1336,34 @@ window.TRIP = {
           "poster": "media/IMG_1277.poster.jpg",
           "video": true,
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260701_170145.mp4",
+          "poster": "media/20260701_170145.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260701_190054.mp4",
+          "poster": "media/20260701_190054.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260701_190451.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260701_190459.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260701_193132.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260701_193919.jpg",
+          "by": "Joseph"
         }
       ]
     },
@@ -1364,6 +1396,14 @@ window.TRIP = {
         {
           "src": "media/IMG_1299.jpg",
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260702_142627.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260702_142634.jpg",
+          "by": "Joseph"
         }
       ]
     },
@@ -1385,14 +1425,14 @@ window.TRIP = {
       ],
       "media": [
         {
-          "src": "media/2C5A6162.jpg",
-          "by": "Joseph"
-        },
-        {
           "src": "media/IMG_1305.mp4",
           "poster": "media/IMG_1305.poster.jpg",
           "video": true,
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260703_133714.jpg",
+          "by": "Joseph"
         }
       ]
     },
@@ -1455,6 +1495,16 @@ window.TRIP = {
           "poster": "media/IMG_1333.poster.jpg",
           "video": true,
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260704_112648.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260704_222038.mp4",
+          "poster": "media/20260704_222038.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
       ]
     },
@@ -1571,6 +1621,28 @@ window.TRIP = {
           "poster": "media/IMG_1433.poster.jpg",
           "video": true,
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260706_132425.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260706_173815.mp4",
+          "poster": "media/20260706_173815.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260706_195700.mp4",
+          "poster": "media/20260706_195700.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260706_203145.mp4",
+          "poster": "media/20260706_203145.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
       ]
     },
