@@ -6,6 +6,15 @@
   var ROUTE = window.ROUTE || null;
   function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
+  /* ---- photo comments (Supabase; anon key is public by design, RLS-protected) ---- */
+  var SB_URL = "https://vtkkyydlzhnwdbhaxvkz.supabase.co";
+  var SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0a2t5eWRsemhud2RiaGF4dmt6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzNDg0MDQsImV4cCI6MjA5MzkyNDQwNH0.Ro1B3wQdbWMM3aI6_Q8CjPw6nt7OI_DunMBSr8sScAE";
+  var SB_TBL = SB_URL + "/rest/v1/roadtrip_photo_comments";
+  var SB_H = { apikey: SB_KEY, Authorization: "Bearer " + SB_KEY };
+  function sbGet(photo){ return fetch(SB_TBL + "?photo=eq." + encodeURIComponent(photo) + "&select=name,body,created_at&order=created_at.asc", { headers: SB_H }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }); }
+  function sbAll(){ return fetch(SB_TBL + "?select=photo", { headers: SB_H }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }); }
+  function sbPost(photo, name, body){ return fetch(SB_TBL, { method: "POST", headers: { apikey: SB_KEY, Authorization: "Bearer " + SB_KEY, "Content-Type": "application/json", Prefer: "return=representation" }, body: JSON.stringify({ photo: photo, name: name, body: body }) }).then(function(r){ if (!r.ok) throw new Error("post failed"); return r.json(); }); }
+
   function mstyle(m){ var s=""; if(m.fit)s+="object-fit:"+m.fit+";"; if(m.pos)s+="object-position:"+m.pos+";"; return s?' style="'+s+'"':""; }
   function mediaFig(m) {
     var cap = m.caption ? '<figcaption>' + esc(m.caption) + '</figcaption>' : '';
@@ -100,13 +109,52 @@
     }, { threshold: [0, 0.4, 1] });
     [].forEach.call(document.querySelectorAll(".m.video video"), function (v) { io.observe(v); });
 
-    // tap a photo to open it full-size; tap a video for sound
-    var lb = document.createElement("div"); lb.className = "lightbox"; lb.innerHTML = '<img alt="">';
+    // tap a photo -> lightbox with a comments sidebar; tap a video for sound
+    var lb = document.createElement("div"); lb.className = "lightbox";
+    lb.innerHTML =
+      '<button class="lb-close" type="button" aria-label="Close">×</button>' +
+      '<div class="lb-stage"><img alt=""></div>' +
+      '<aside class="lb-comments">' +
+        '<div class="lbc-head">Comments</div>' +
+        '<div class="lbc-list"></div>' +
+        '<form class="lbc-form">' +
+          '<input class="lbc-name" placeholder="Your name" maxlength="50" autocomplete="name" required>' +
+          '<textarea class="lbc-body" placeholder="Leave a comment…" maxlength="800" required></textarea>' +
+          '<button type="submit" class="lbc-post">Post comment</button>' +
+        '</form>' +
+      '</aside>';
     document.body.appendChild(lb);
-    var lbImg = lb.querySelector("img");
-    function closeLB() { lb.classList.remove("open"); lbImg.removeAttribute("src"); }
-    lb.addEventListener("click", closeLB);
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLB(); });
+    var lbImg = lb.querySelector("img"), lbcList = lb.querySelector(".lbc-list"), lbcForm = lb.querySelector(".lbc-form");
+    var curPhoto = null, commentedSet = null;
+    var savedName = ""; try { savedName = localStorage.getItem("rt_name") || ""; } catch (e) {}
+    function fmtD(s){ try { return new Date(s).toLocaleDateString(undefined, { month: "short", day: "numeric" }); } catch (e) { return ""; } }
+    function escC(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+    function renderC(list){
+      lbcList.innerHTML = (list && list.length) ? list.map(function (c) {
+        return '<div class="lbc-item"><div class="lbc-meta"><span class="lbc-who">' + escC(c.name) + '</span><span class="lbc-when">' + fmtD(c.created_at) + '</span></div><div class="lbc-text">' + escC(c.body) + '</div></div>';
+      }).join("") : '<div class="lbc-empty">No comments yet — be the first.</div>';
+    }
+    function markFig(photo){ [].forEach.call(document.querySelectorAll(".m img, .hl img"), function (im) { if (im.getAttribute("src") === photo) { var f = im.closest(".m, .hl"); if (f) f.classList.add("has-comment"); } }); }
+    function markDots(){ sbAll().then(function (rows) { commentedSet = {}; (rows || []).forEach(function (r) { commentedSet[r.photo] = 1; }); Object.keys(commentedSet).forEach(markFig); }); }
+    markDots();
+    function openLB(photo, url){ curPhoto = photo; lbImg.src = url; lbcList.innerHTML = '<div class="lbc-empty">Loading…</div>'; lbcForm.querySelector(".lbc-name").value = savedName; lb.classList.add("open"); document.body.style.overflow = "hidden"; sbGet(photo).then(renderC); }
+    function closeLB() { lb.classList.remove("open"); lbImg.removeAttribute("src"); curPhoto = null; document.body.style.overflow = ""; }
+    lb.querySelector(".lb-close").addEventListener("click", closeLB);
+    lb.addEventListener("click", function (e) { if (e.target === lb || e.target.classList.contains("lb-stage")) closeLB(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && lb.classList.contains("open")) closeLB(); });
+    lbcForm.addEventListener("submit", function (e) {
+      e.preventDefault(); if (!curPhoto) return;
+      var name = lbcForm.querySelector(".lbc-name").value.trim(), body = lbcForm.querySelector(".lbc-body").value.trim();
+      if (!name || !body) return;
+      var btn = lbcForm.querySelector(".lbc-post"); btn.disabled = true; btn.textContent = "Posting…";
+      sbPost(curPhoto, name, body).then(function () {
+        savedName = name; try { localStorage.setItem("rt_name", name); } catch (e) {}
+        lbcForm.querySelector(".lbc-body").value = "";
+        markFig(curPhoto); if (commentedSet) commentedSet[curPhoto] = 1;
+        return sbGet(curPhoto).then(renderC);
+      }).catch(function () { lbcList.insertAdjacentHTML("afterbegin", '<div class="lbc-err">Couldn’t post — try again.</div>'); })
+        .then(function () { btn.disabled = false; btn.textContent = "Post comment"; });
+    });
     document.addEventListener("click", function (e) {
       if (lb.classList.contains("open")) return;
       var fig = e.target.closest && e.target.closest(".m, .hl");
@@ -117,7 +165,7 @@
         return;
       }
       var img = fig.querySelector("img");
-      if (img) { lbImg.src = img.currentSrc || img.src; lb.classList.add("open"); }
+      if (img) openLB(img.getAttribute("src"), img.currentSrc || img.src);
     });
   })();
 
