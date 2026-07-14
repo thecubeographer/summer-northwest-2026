@@ -1712,6 +1712,203 @@ window.TRIP = {
           "by": "Evangeline"
         }
       ]
+    },
+    {
+      "day": "Day 29",
+      "date": "Thursday, July 9",
+      "place": "North Cascades → Darrington, WA",
+      "coords": [
+        48.235,
+        -121.565
+      ],
+      "dot": true,
+      "endLeg": "t",
+      "endFrac": 1,
+      "title": "Thunder Creek, a waterfall, and a screaming owl",
+      "body": [
+        "From our camp at the trailhead we set off on the Thunder Creek Trail — billed as 3.6 miles but closer to 5 by the time we were done, with about 650 feet of climbing — up to a viewpoint over the lake and the surrounding peaks. Well worth the extra mileage.",
+        "Before leaving the national park we also walked the short Gorge Overlook Trail and stood a while watching the waterfall.",
+        "Then we pointed over the mountains toward Darrington. The forest road we'd picked for the night turned out to be so rutted with potholes that we could only crawl along at about two miles an hour, and it was too narrow to turn around — we finally found a spot to pull off around two and a half miles in and made camp there.",
+        "Around 11:30 that night a sound tore through the trees right next to the camper — it honestly sounded like a woman screaming in the dark. We couldn't sleep, so Joseph looked it up: a barred owl, which makes eerily human calls. A few minutes later it went off again, and this time we just laughed. Confirmed — definitely the bird."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1468.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1470.mp4",
+          "poster": "media/IMG_1470.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1472.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1477.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1486.mp4",
+          "poster": "media/IMG_1486.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1508.mp4",
+          "poster": "media/IMG_1508.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1510.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1511.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1514.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 30",
+      "date": "Friday, July 10",
+      "place": "Darrington → Redmond, WA",
+      "coords": [
+        47.674,
+        -122.12154
+      ],
+      "dot": true,
+      "endLeg": "u",
+      "endFrac": 1,
+      "title": "Down to Redmond and the Pecks'",
+      "body": [
+        "In the morning we crept back down the dirt road and out through Arlington, then dropped south to Redmond to stay with the Pecks, old family friends. We're set up at their daughter Roxanne's place nearby.",
+        "That evening we babysat the Pecks' four grandsons, who taught us their own house variation of poker — a good time."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1517.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1520.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 31",
+      "date": "Saturday, July 11",
+      "place": "Redmond, WA",
+      "coords": [
+        47.6706,
+        -122.1236
+      ],
+      "dot": true,
+      "endLeg": "u",
+      "endFrac": 1,
+      "title": "Redmond car show, then canasta with the Pecks",
+      "body": [
+        "Saturday morning we headed to a car show in Redmond, which Joseph loved — rows of Italian metal: Lamborghinis, Ferraris, Maseratis, a Fiat, and even a couple of Ducatis.",
+        "Afterward we ran a few errands for things we needed, then came back for lunch with the Pecks, who taught us canasta and a handful of other card games."
+      ],
+      "media": [
+        {
+          "src": "media/rtcexotics-05.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-06.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-07.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-08.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-09.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-10.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-11.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/rtcexotics-12.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260711_085230.mp4",
+          "poster": "media/20260711_085230.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260711_093808.mp4",
+          "poster": "media/20260711_093808.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/20260711_110921.mp4",
+          "poster": "media/20260711_110921.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/C0061.mp4",
+          "poster": "media/C0061.poster.jpg",
+          "video": true,
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1521.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1526.mp4",
+          "poster": "media/IMG_1526.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1531.jpg",
+          "by": "Evangeline"
+        }
+      ]
+    },
+    {
+      "day": "Day 32",
+      "date": "Sunday, July 12",
+      "place": "Redmond / Bellevue, WA",
+      "coords": [
+        47.615,
+        -122.187
+      ],
+      "dot": true,
+      "endLeg": "u",
+      "endFrac": 1,
+      "title": "Sunday at Doxa, and burgers",
+      "body": [
+        "Sunday we went to church with the Pecks at Doxa Church, then headed back to their place for a burger lunch — a relaxed close to a full few days with good friends.",
+        "Photos coming soon."
+      ],
+      "media": []
     }
   ]
 };
