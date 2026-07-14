@@ -8,6 +8,21 @@ window.TRIP = {
     "instagram": "joe.and.evangeline",
     "highlights": [
       {
+        "src": "media/rtcexotics-05.jpg",
+        "day": "Day 31",
+        "caption": ""
+      },
+      {
+        "src": "media/rtcexotics-09.jpg",
+        "day": "Day 31",
+        "caption": ""
+      },
+      {
+        "src": "media/rtcexotics-12.jpg",
+        "day": "Day 31",
+        "caption": ""
+      },
+      {
         "src": "media/highligh-09.jpg",
         "day": "Day 5",
         "caption": ""

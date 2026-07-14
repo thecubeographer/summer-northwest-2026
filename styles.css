@@ -72,7 +72,9 @@ a{color:inherit}
 .map-toggle{display:none}
 
 /* dots + moving pin */
-.dot span{display:block;width:13px;height:13px;border-radius:50%;background:#fff;border:2px solid var(--accent);box-shadow:0 1px 4px rgba(0,0,0,.22)}
+.dot{cursor:pointer}
+.dot span{display:block;width:13px;height:13px;border-radius:50%;background:#fff;border:2px solid var(--accent);box-shadow:0 1px 4px rgba(0,0,0,.22);transition:transform .12s ease}
+.dot:hover span{transform:scale(1.35)}
 .day-on span{background:var(--accent)}
 .dot.start span{width:auto;height:auto;border:0;background:none;box-shadow:none;color:var(--soft);font-size:15px;line-height:1}
 .pin{position:relative}

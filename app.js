@@ -219,10 +219,19 @@
       .addTo(map).bindTooltip("Start · " + meta.origin.place, { direction: "top" });
   }
   var dotByKey = {};
-  sections.forEach(function (s) {
+  sections.forEach(function (s, i) {
     if (!s.dot) return;
     var key = s.coords.join(",");
-    if (!dotByKey[key]) dotByKey[key] = L.marker(s.coords, { icon: L.divIcon({ className: "dot", html: "<span></span>", iconSize: [16, 16], iconAnchor: [8, 8] }) }).addTo(map);
+    if (!dotByKey[key]) {
+      var mk = L.marker(s.coords, { icon: L.divIcon({ className: "dot", html: "<span></span>", iconSize: [16, 16], iconAnchor: [8, 8] }), keyboard: false, riseOnHover: true }).addTo(map);
+      mk._secIndex = i;   // first day at this spot — clicking the dot jumps here
+      mk.bindTooltip(esc(s.day) + (s.place ? " · " + esc(s.place) : ""), { direction: "top", offset: [0, -6] });
+      mk.on("click", function () {
+        var el = secs[this._secIndex];
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 8, behavior: "smooth" });
+      });
+      dotByKey[key] = mk;
+    }
   });
   var pin = L.marker(P[0], { icon: L.divIcon({ className: "pin", html: "", iconSize: [30, 30], iconAnchor: [15, 22] }), zIndexOffset: 1000, interactive: false }).addTo(map);
 
