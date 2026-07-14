@@ -46,7 +46,7 @@
       document.body.appendChild(s);
 
       /* loading screen: preload the hero (cover + all highlights + all of Day 1's photos & videos)
-         before revealing the site. If the wait passes 3s, fade in a dimmed photo + rotating quotes. */
+         before revealing the site. If the wait passes 3s, fade in a dimmed hero photo behind the bar. */
       var loader = document.getElementById("loader");
       if (loader) {
         var hideLoader = function () { loader.classList.add("hide"); setTimeout(function () { if (loader.parentNode) loader.parentNode.removeChild(loader); }, 700); };
