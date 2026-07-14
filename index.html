@@ -18,7 +18,6 @@
     <div class="loader-box">
       <div class="lt">Summer Northwest 2026</div>
       <div class="loader-bar"><span id="loaderBarFill"></span></div>
-      <div class="loader-quote" id="loaderQuote"><span class="lq-text"></span><span class="lq-by">— Joseph &amp; Evangeline</span></div>
     </div>
   </div>
 
@@ -77,27 +76,11 @@
             });
             setTimeout(finishAll, 16000);  // overall safety cap
           }
-          /* after 3s, if still loading, make the wait fun */
+          /* after 3s, if still loading, fade in a dimmed hero photo behind the bar */
           setTimeout(function () {
             if (finished) return;
             var bg = document.getElementById("loaderBg");
             if (bg && meta.cover) { bg.style.backgroundImage = "url('" + meta.cover + "')"; bg.classList.add("show"); }
-            var qEl = document.getElementById("loaderQuote"); if (!qEl) return;
-            var txt = qEl.querySelector(".lq-text");
-            var quotes = [
-              "Currently held together by zip ties and rosé.",
-              "1,800 miles, two phones, one very patient marriage.",
-              "The generator works now. We think.",
-              "Powered by gas-station snacks and spotty Starlink.",
-              "Still scraping bugs off the windshield.",
-              "Hang on — loading the good part.",
-              "Worth the drive. We promise.",
-              "Somewhere between a gas station and a glacier."
-            ];
-            var i = Math.floor(Math.random() * quotes.length);
-            var showQ = function () { if (finished) return; txt.textContent = quotes[i % quotes.length]; qEl.classList.add("show"); i++; };
-            showQ();
-            var iv = setInterval(function () { if (finished) { clearInterval(iv); return; } qEl.classList.remove("show"); setTimeout(showQ, 480); }, 3600);
           }, 3000);
         }
       }
