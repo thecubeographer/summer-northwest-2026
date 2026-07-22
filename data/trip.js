@@ -1958,7 +1958,7 @@ window.TRIP = {
       "title": "North to Camano Island, and a double date in Stanwood",
       "body": [
         "We packed up and drove north to Camano Island State Park. The site had shown as available at noon online, but in person we couldn't check in until 2:30 — so we parked down at the boat ramp and waited it out, then checked in and set up the trailer once it opened.",
-        "That evening we headed over to Stanwood for a double date with Mariah and Josh. They gave us a tour of Mariah's adorable house and gardens first, then we went to Lakewood Thai for dinner and came back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was fun to get to know him too.",
+        "That evening we headed over to Stanwood for a double date with Moriah and Josh. They gave us a tour of Moriah's adorable house and gardens first, then we went to Lakewood Thai for dinner and came back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was fun to get to know him too.",
         "Photos coming soon."
       ],
       "media": []
@@ -1976,8 +1976,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A beach reunion, and dinner with the Metcalfs",
       "body": [
-        "Evangeline's parents arrived at the park around ten, with Emily along too — a happy reunion, since we hadn't seen them in about a month. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
-        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' house for dinner. It was good to visit with Amber and Doug, Josh and Maria, Levi, and the groomsmen staying there with Shiloh.",
+        "Evangeline's parents arrived at the park around ten, with Evangeline's sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
+        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' house for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh.",
         "Photos coming soon."
       ],
       "media": []
@@ -1995,7 +1995,7 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Wedding flowers and the rehearsal dinner",
       "body": [
-        "We spent the day at the Metcalfs', helping Amber and Maria pick and arrange the florals for the rehearsal dinner.",
+        "We spent the day at the Metcalfs', helping Amber and Moriah pick and arrange the florals for the rehearsal dinner.",
         "Then we got all dressed up for the rehearsal dinner that evening at Il Grano. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes.",
         "Photos coming soon."
       ],
@@ -2014,8 +2014,84 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Flowers for the wedding",
       "body": [
-        "Evangeline, her mom, and Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together.",
-        "In the afternoon Evangeline headed back to the Metcalfs', and from there we all went with her parents and Emily to — [more to come].",
+        "Evangeline, her mom, and her sister Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer from the state park over to the Metcalfs'.",
+        "That evening we all headed out with her parents and Emily to the Connor — a locals'-favorite spot — for fish and chips, then drove into Bellingham to catch the movie Young Washington at the theater.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 38",
+      "date": "Saturday, July 18",
+      "place": "Stanwood, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Shiloh & Paige's wedding",
+      "body": [
+        "The big day. Evangeline got ready in the morning with Moriah, Amber, and her mom at the Metcalfs', then we all headed to the venue early to help set the tables — which turned out beautifully.",
+        "The wedding at the Rose Hill Community Center was gorgeous, and the dinner was absolutely fantastic — wonderful food, so much dancing, and the florals turned out amazing. It was such a joy to watch Shiloh and Paige get married.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 39",
+      "date": "Sunday, July 19",
+      "place": "Stanwood, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Slow Sunday, and lunch with the Johanssons",
+      "body": [
+        "Worn out from the wedding, we slept in and had a slow morning around the Metcalfs'.",
+        "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emily to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 40",
+      "date": "Monday, July 20",
+      "place": "Stanwood, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Reset day, and a farewell dinner",
+      "body": [
+        "A reset day — laundry, cleaning out the RV, and getting things ready to hit the road again.",
+        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 41",
+      "date": "Tuesday, July 21",
+      "place": "Camano Island, WA → south for the Oregon coast",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Plans change: skipping St. Helens for the coast",
+      "body": [
+        "We said our goodbyes and set off south, planning to visit Mount St. Helens. On the way, though, we learned the road to the classic blast-side view was closed — the open side would've added an hour and a half for a view that isn't the iconic one, so we decided to skip it.",
+        "Next we aimed for the Columbia River Gorge, but I-5 traffic was brutal. Rather than crawl through Portland at rush hour, we scrapped the plan and pointed straight for the Oregon coast instead.",
         "Photos coming soon."
       ],
       "media": []
