@@ -1920,7 +1920,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Sunday at Doxa, and burgers",
       "body": [
-        "Sunday we went to church with the Pecks at Doxa Church, then headed back to their place for a burger lunch — a relaxed close to a full few days with good friends.",
+        "Sunday we went to church with the Pecks at Doxa Church, then headed back to their place for a burger lunch.",
+        "We hung around and played games too — including Rummikub, which I'd never played before — and watched the movie F1, which was super cool. A relaxed close to a full few days with good friends.",
         "Photos coming soon."
       ],
       "media": []
@@ -1939,7 +1940,7 @@ window.TRIP = {
       "title": "A work day, rummy, and s'mores",
       "body": [
         "A quieter day around Redmond — Joseph worked while Evangeline ran out for groceries.",
-        "In the evening we played Michigan rummy with the Pecks' grandsons again, then made s'mores to cap off the night.",
+        "In the evening Joseph played soccer and jumped on the trampoline with the boys, who completely destroyed him at soccer. We also played Michigan rummy with the grandsons again and made s'mores to cap off the night.",
         "Photos coming soon."
       ],
       "media": []
@@ -1958,7 +1959,7 @@ window.TRIP = {
       "title": "North to Camano Island, and a double date in Stanwood",
       "body": [
         "We packed up and drove north to Camano Island State Park. The site had shown as available at noon online, but in person we couldn't check in until 2:30 — so we parked down at the boat ramp and waited it out, then checked in and set up the trailer once it opened.",
-        "That evening we headed over to Stanwood for a double date with Moriah and Josh. They gave us a tour of Moriah's adorable house and gardens first, then we went to Lakewood Thai for dinner and came back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was fun to get to know him too.",
+        "That evening we headed over to Stanwood for a double date with Moriah and Josh. They gave us a tour of their cute little property — the house, the little garden, and the chicken coop — and Josh showed me his garage full of fun toys, including a new crossbow he got from Moriah. Then we went to Lakewood Thai for dinner, where you pick your own spice level, so we had fun experimenting with that before heading back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was great to get to know him too.",
         "Photos coming soon."
       ],
       "media": []
@@ -1976,8 +1977,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A beach reunion, and dinner with the Metcalfs",
       "body": [
-        "Evangeline's parents arrived at the park around ten, with Evangeline's sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
-        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' house for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh.",
+        "Evangeline's parents, the Newmans, arrived at the park around ten, with her sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They also brought a brand-new replacement battery for the trailer, swapping out the one that had died earlier in the trip — very needed, and so nice to be able to charge things up again and know we're set going forward. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
+        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh. Joseph got to play volleyball with the groomsmen and get to know each of them, and we all chilled in the gazebo through the evening — such a fun night.",
         "Photos coming soon."
       ],
       "media": []
@@ -1995,8 +1996,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Wedding flowers and the rehearsal dinner",
       "body": [
-        "We spent the day at the Metcalfs', helping Amber and Moriah pick and arrange the florals for the rehearsal dinner.",
-        "Then we got all dressed up for the rehearsal dinner that evening at Il Grano. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes.",
+        "A pretty relaxing day — we spent it at the Metcalfs', helping Amber and Moriah pick and arrange the florals for the rehearsal dinner.",
+        "Then we got all dressed up for the rehearsal dinner at Il Grano, an Italian restaurant, getting there a little early to set up the flowers. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes.",
         "Photos coming soon."
       ],
       "media": []
@@ -2004,17 +2005,17 @@ window.TRIP = {
     {
       "day": "Day 37",
       "date": "Friday, July 17",
-      "place": "Camano Island / Stanwood, WA",
+      "place": "Camano Island → Arlington, WA",
       "coords": [
-        48.12548,
-        -122.49007
+        48.1987,
+        -122.1251
       ],
-      "dot": false,
-      "endLeg": "v",
+      "dot": true,
+      "endLeg": "w",
       "endFrac": 1,
       "title": "Flowers for the wedding",
       "body": [
-        "Evangeline, her mom, and her sister Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer from the state park over to the Metcalfs'.",
+        "A pretty relaxing day. Evangeline, her mom, and her sister Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer over to the Metcalfs' place in Arlington — the move and setup went easy.",
         "That evening we all headed out with her parents and Emily to the Connor — a locals'-favorite spot — for fish and chips, then drove into Bellingham to catch the movie Young Washington at the theater.",
         "Photos coming soon."
       ],
@@ -2023,13 +2024,13 @@ window.TRIP = {
     {
       "day": "Day 38",
       "date": "Saturday, July 18",
-      "place": "Stanwood, WA",
+      "place": "Arlington, WA",
       "coords": [
-        48.12548,
-        -122.49007
+        48.1987,
+        -122.1251
       ],
       "dot": false,
-      "endLeg": "v",
+      "endLeg": "w",
       "endFrac": 1,
       "title": "Shiloh & Paige's wedding",
       "body": [
@@ -2042,13 +2043,13 @@ window.TRIP = {
     {
       "day": "Day 39",
       "date": "Sunday, July 19",
-      "place": "Stanwood, WA",
+      "place": "Arlington, WA",
       "coords": [
-        48.12548,
-        -122.49007
+        48.1987,
+        -122.1251
       ],
       "dot": false,
-      "endLeg": "v",
+      "endLeg": "w",
       "endFrac": 1,
       "title": "Slow Sunday, and lunch with the Johanssons",
       "body": [
@@ -2061,13 +2062,13 @@ window.TRIP = {
     {
       "day": "Day 40",
       "date": "Monday, July 20",
-      "place": "Stanwood, WA",
+      "place": "Arlington, WA",
       "coords": [
-        48.12548,
-        -122.49007
+        48.1987,
+        -122.1251
       ],
       "dot": false,
-      "endLeg": "v",
+      "endLeg": "w",
       "endFrac": 1,
       "title": "Reset day, and a farewell dinner",
       "body": [
@@ -2080,13 +2081,13 @@ window.TRIP = {
     {
       "day": "Day 41",
       "date": "Tuesday, July 21",
-      "place": "Camano Island, WA → south for the Oregon coast",
+      "place": "Arlington, WA → south for the Oregon coast",
       "coords": [
-        48.12548,
-        -122.49007
+        48.1987,
+        -122.1251
       ],
       "dot": false,
-      "endLeg": "v",
+      "endLeg": "w",
       "endFrac": 1,
       "title": "Plans change: skipping St. Helens for the coast",
       "body": [
