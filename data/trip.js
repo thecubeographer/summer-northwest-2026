@@ -1924,6 +1924,101 @@ window.TRIP = {
         "Photos coming soon."
       ],
       "media": []
+    },
+    {
+      "day": "Day 33",
+      "date": "Monday, July 13",
+      "place": "Redmond, WA",
+      "coords": [
+        47.674,
+        -122.12154
+      ],
+      "dot": false,
+      "endLeg": "u",
+      "endFrac": 1,
+      "title": "A work day, rummy, and s'mores",
+      "body": [
+        "A quieter day around Redmond — Joseph worked while Evangeline ran out for groceries.",
+        "In the evening we played Michigan rummy with the Pecks' grandsons again, then made s'mores to cap off the night.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 34",
+      "date": "Tuesday, July 14",
+      "place": "Redmond → Camano Island State Park, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": true,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "North to Camano Island, and a double date in Stanwood",
+      "body": [
+        "We packed up and drove north to Camano Island State Park. The site had shown as available at noon online, but in person we couldn't check in until 2:30 — so we parked down at the boat ramp and waited it out, then checked in and set up the trailer once it opened.",
+        "That evening we headed over to Stanwood for a double date with Mariah and Josh. They gave us a tour of Mariah's adorable house and gardens first, then we went to Lakewood Thai for dinner and came back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was fun to get to know him too.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 35",
+      "date": "Wednesday, July 15",
+      "place": "Camano Island, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "A beach reunion, and dinner with the Metcalfs",
+      "body": [
+        "Evangeline's parents arrived at the park around ten, with Emily along too — a happy reunion, since we hadn't seen them in about a month. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
+        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' house for dinner. It was good to visit with Amber and Doug, Josh and Maria, Levi, and the groomsmen staying there with Shiloh.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 36",
+      "date": "Thursday, July 16",
+      "place": "Camano Island / Stanwood, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Wedding flowers and the rehearsal dinner",
+      "body": [
+        "We spent the day at the Metcalfs', helping Amber and Maria pick and arrange the florals for the rehearsal dinner.",
+        "Then we got all dressed up for the rehearsal dinner that evening at Il Grano. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes.",
+        "Photos coming soon."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 37",
+      "date": "Friday, July 17",
+      "place": "Camano Island / Stanwood, WA",
+      "coords": [
+        48.12548,
+        -122.49007
+      ],
+      "dot": false,
+      "endLeg": "v",
+      "endFrac": 1,
+      "title": "Flowers for the wedding",
+      "body": [
+        "Evangeline, her mom, and Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together.",
+        "In the afternoon Evangeline headed back to the Metcalfs', and from there we all went with her parents and Emily to — [more to come].",
+        "Photos coming soon."
+      ],
+      "media": []
     }
   ]
 };
