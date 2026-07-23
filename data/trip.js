@@ -2034,8 +2034,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Shiloh & Paige's wedding",
       "body": [
-        "The big day. Evangeline got ready in the morning with Moriah, Amber, and her mom at the Metcalfs', then we all headed to the venue early to help set the tables — which turned out beautifully.",
-        "The wedding at the Rose Hill Community Center was gorgeous, and the dinner was absolutely fantastic — wonderful food, so much dancing, and the florals turned out amazing. It was such a joy to watch Shiloh and Paige get married.",
+        "The big day. Evangeline got ready in the morning with Moriah, Amber, and her mom at the Metcalfs', then we all headed to the venue early to help set up — the tables and the ceremony chairs — which turned out beautifully.",
+        "It was a magical wedding at the Rose Hill Community Center: a live painter capturing the day, a fantastic salmon dinner, the florals looking amazing, and so much fun dancing. They sent themselves off through a tunnel of bubbles — just like we did at our own wedding — so it was especially fun to see. Such a joy to watch Shiloh and Paige get married.",
         "Photos coming soon."
       ],
       "media": []
@@ -2053,7 +2053,7 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Slow Sunday, and lunch with the Johanssons",
       "body": [
-        "Worn out from the wedding, we slept in and had a slow morning around the Metcalfs'.",
+        "Worn out from the wedding, we spent most of the morning completely crashed. Eventually Joseph, Doug, and Scott set out on a three-mile walk to a bridge nearby, mostly to get some steps in — though Joseph went barefoot for the first half after he couldn't find his tennis shoes, then switched to sandals for the second half and earned some nasty blisters for it. Won't be doing that again.",
         "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emily to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening.",
         "Photos coming soon."
       ],
@@ -2072,8 +2072,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Reset day, and a farewell dinner",
       "body": [
-        "A reset day — laundry, cleaning out the RV, and getting things ready to hit the road again.",
-        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south.",
+        "A pretty straightforward reset day — laundry, cleaning out the RV, and getting things ready to hit the road again.",
+        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south. The evening was the fun part: Joseph got to talk for a good while with the Metcalfs' grandpa — a sharp guy — ranging from AI and its impact on the economy to the Bible and the hidden meanings and often-misunderstood passages in the text. In between all that, Emily and Joseph kept at the badminton they'd been learning all weekend, playing well over five rounds to scores in the fifties and going from truly terrible to pretty decent by the end.",
         "Photos coming soon."
       ],
       "media": []
@@ -2081,18 +2081,19 @@ window.TRIP = {
     {
       "day": "Day 41",
       "date": "Tuesday, July 21",
-      "place": "Arlington, WA → south for the Oregon coast",
+      "place": "Arlington, WA → Oregon coast",
       "coords": [
-        48.1987,
-        -122.1251
+        45.89198,
+        -123.9615
       ],
-      "dot": false,
-      "endLeg": "w",
+      "dot": true,
+      "endLeg": "x",
       "endFrac": 1,
-      "title": "Plans change: skipping St. Helens for the coast",
+      "title": "Seattle supercars, a scrapped plan, and free oceanfront",
       "body": [
-        "We said our goodbyes and set off south, planning to visit Mount St. Helens. On the way, though, we learned the road to the classic blast-side view was closed — the open side would've added an hour and a half for a view that isn't the iconic one, so we decided to skip it.",
-        "Next we aimed for the Columbia River Gorge, but I-5 traffic was brutal. Rather than crawl through Portland at rush hour, we scrapped the plan and pointed straight for the Oregon coast instead.",
+        "We got up early and set off south, first stopping in Seattle around 10:30. Evangeline wasn't feeling great, so she rested in the trailer while Joseph grabbed his camera and made the rounds of the exotic-car showrooms — McLaren, Lamborghini, and the connected Bentley and Rolls-Royce showrooms, a look across the road at the Aston Martin, Lotus, and Karma dealerships, then a three-quarter-mile walk over to Ferrari. A few spots didn't allow cameras, but it was a blast to see so many iconic cars up close.",
+        "Back on the road, we'd planned to visit Mount St. Helens — but the road to the classic blast-side view was closed, and the open side would've added an hour and a half for a view that isn't the iconic one, so we skipped it. We aimed for the Columbia River Gorge next, but I-5 traffic was brutal; rather than crawl through Portland at rush hour, we stopped at a Starbucks (Joseph got a little work in), rethought the plan, and pointed straight for the Oregon coast.",
+        "That evening we pulled into a gorgeous spot right on the ocean — a beautiful view, a stunning sunset on the beach, and some very fun photos. The kind of oceanfront you'd usually pay $500 a night for, and we had it for free.",
         "Photos coming soon."
       ],
       "media": []
