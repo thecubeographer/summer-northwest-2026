@@ -2221,6 +2221,54 @@ window.TRIP = {
           "by": "Evangeline"
         }
       ]
+    },
+    {
+      "day": "Day 42",
+      "date": "Wednesday, July 22",
+      "place": "Washington coast → Arch Cape, OR",
+      "coords": [
+        45.8027,
+        -123.9632
+      ],
+      "dot": true,
+      "endLeg": "y",
+      "endFrac": 1,
+      "title": "Cape Disappointment, aptly named, then into Oregon",
+      "body": [
+        "This morning we drove out to Cape Disappointment to see the lighthouse — but the sign said no RVs, so it rather lived up to its name. We kept rolling into the little town of Ilwaco, where Evangeline grabbed coffee at Three Otters Coffee Company, then wandered into Time Enough Books and came away with two books.",
+        "From there we continued south, crossing into Oregon through Astoria and on to Warrenton, where we filled up on gas and stopped at TJ Maxx — Evangeline found Joseph's birthday presents there, and apparently he'd been shopping for her too.",
+        "Then it was on to Cannon Beach, where we had seafood and an amazing bowl of chowder at Mo's, before heading down to Arch Cape and finding a pull-off for the night."
+      ],
+      "media": [
+        {
+          "src": "media/IMG_1690.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1694.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1704.mp4",
+          "poster": "media/IMG_1704.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1709.mp4",
+          "poster": "media/IMG_1709.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1729.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1731.jpg",
+          "by": "Evangeline"
+        }
+      ]
     }
   ]
 };
