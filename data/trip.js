@@ -1959,10 +1959,14 @@ window.TRIP = {
       "title": "North to Camano Island, and a double date in Stanwood",
       "body": [
         "We packed up and drove north to Camano Island State Park. The site had shown as available at noon online, but in person we couldn't check in until 2:30 — so we parked down at the boat ramp and waited it out, then checked in and set up the trailer once it opened.",
-        "That evening we headed over to Stanwood for a double date with Moriah and Josh. They gave us a tour of their cute little property — the house, the little garden, and the chicken coop — and Josh showed me his garage full of fun toys, including a new crossbow he got from Moriah. Then we went to Lakewood Thai for dinner, where you pick your own spice level, so we had fun experimenting with that before heading back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was great to get to know him too.",
-        "Photos coming soon."
+        "That evening we headed over to Stanwood for a double date with Moriah and Josh. They gave us a tour of their cute little property — the house, the little garden, and the chicken coop — and Josh showed me his garage full of fun toys, including a new crossbow he got from Moriah. Then we went to Lakewood Thai for dinner, where you pick your own spice level, so we had fun experimenting with that before heading back to hang out and chat. We hadn't really spent time with Josh beyond their wedding, so it was great to get to know him too."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1554.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 35",
@@ -1977,11 +1981,27 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A beach reunion, and dinner with the Metcalfs",
       "body": [
-        "Evangeline's parents, the Newmans, arrived at the park around ten, with her sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They also brought a brand-new replacement battery for the trailer, swapping out the one that had died earlier in the trip — very needed, and so nice to be able to charge things up again and know we're set going forward. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
-        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh. Joseph got to play volleyball with the groomsmen and get to know each of them, and we all chilled in the gazebo through the evening — such a fun night.",
-        "Photos coming soon."
+        "Evangeline's parents, the Newmans, arrived at the park around ten, with her sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They also brought us a brand-new Jackery power station to replace the one that had died earlier in the trip — very needed, and so nice to be able to charge things up again and know we're set going forward. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
+        "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh. Joseph got to play volleyball with the groomsmen and get to know each of them, and we all chilled in the gazebo through the evening — such a fun night."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1555.mp4",
+          "poster": "media/IMG_1555.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1557.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1566.mp4",
+          "poster": "media/IMG_1566.poster.jpg",
+          "video": true,
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 36",
@@ -1997,10 +2017,14 @@ window.TRIP = {
       "title": "Wedding flowers and the rehearsal dinner",
       "body": [
         "A pretty relaxing day — we spent it at the Metcalfs', helping Amber and Moriah pick and arrange the florals for the rehearsal dinner.",
-        "Then we got all dressed up for the rehearsal dinner at Il Grano, an Italian restaurant, getting there a little early to set up the flowers. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes.",
-        "Photos coming soon."
+        "Then we got all dressed up for the rehearsal dinner at Il Grano, an Italian restaurant, getting there a little early to set up the flowers. While we were there, Evangeline met Paige's mom, who asked if she could help with the wedding flowers in the morning — she said yes."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1575.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 37",
@@ -2016,18 +2040,30 @@ window.TRIP = {
       "title": "Flowers for the wedding",
       "body": [
         "A pretty relaxing day. Evangeline, her mom, and her sister Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer over to the Metcalfs' place in Arlington — the move and setup went easy.",
-        "That evening we all headed out with her parents and Emily to the Connor — a locals'-favorite spot — for fish and chips, then drove into Bellingham to catch the movie Young Washington at the theater.",
-        "Photos coming soon."
+        "That evening we all headed out with the Newmans to the La Conner Pub and Eatery in La Conner for fish and chips. While we waited for our food, Emily, Scott, and Joseph wandered around town, checked out some cool crab-fishing boats, and spotted three or four bald eagles. Afterward we drove into Bellingham to catch the movie Young Washington."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1580.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1583.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1594.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 38",
       "date": "Saturday, July 18",
-      "place": "Arlington, WA",
+      "place": "Mukilteo, WA",
       "coords": [
-        48.1987,
-        -122.1251
+        47.9478,
+        -122.3048
       ],
       "dot": false,
       "endLeg": "w",
@@ -2035,10 +2071,34 @@ window.TRIP = {
       "title": "Shiloh & Paige's wedding",
       "body": [
         "The big day. Evangeline got ready in the morning with Moriah, Amber, and her mom at the Metcalfs', then we all headed to the venue early to help set up — the tables and the ceremony chairs — which turned out beautifully.",
-        "It was a magical wedding at the Rose Hill Community Center: a live painter capturing the day, a fantastic salmon dinner, the florals looking amazing, and so much fun dancing. They sent themselves off through a tunnel of bubbles — just like we did at our own wedding — so it was especially fun to see. Such a joy to watch Shiloh and Paige get married.",
-        "Photos coming soon."
+        "It was a magical wedding at the Rosehill Community Center in Mukilteo: a live painter capturing the day, a fantastic salmon dinner, the florals looking amazing, and so much fun dancing. They sent themselves off through a tunnel of bubbles — just like we did at our own wedding — so it was especially fun to see. Such a joy to watch Shiloh and Paige get married."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1608.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_3483.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_3506.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1610.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_3527.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_3534.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 39",
@@ -2054,10 +2114,14 @@ window.TRIP = {
       "title": "Slow Sunday, and lunch with the Johanssons",
       "body": [
         "Worn out from the wedding, we spent most of the morning completely crashed. Eventually Joseph, Doug, and Scott set out on a three-mile walk to a bridge nearby, mostly to get some steps in — though Joseph went barefoot for the first half after he couldn't find his tennis shoes, then switched to sandals for the second half and earned some nasty blisters for it. Won't be doing that again.",
-        "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emily to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening.",
-        "Photos coming soon."
+        "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emily to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1655.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 40",
@@ -2073,18 +2137,30 @@ window.TRIP = {
       "title": "Reset day, and a farewell dinner",
       "body": [
         "A pretty straightforward reset day — laundry, cleaning out the RV, and getting things ready to hit the road again.",
-        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south. The evening was the fun part: Joseph got to talk for a good while with the Metcalfs' grandpa — a sharp guy — ranging from AI and its impact on the economy to the Bible and the hidden meanings and often-misunderstood passages in the text. In between all that, Emily and Joseph kept at the badminton they'd been learning all weekend, playing well over five rounds to scores in the fifties and going from truly terrible to pretty decent by the end.",
-        "Photos coming soon."
+        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south. The evening was the fun part: Joseph got to talk for a good while with the Metcalfs' grandpa — a sharp guy — ranging from AI and its impact on the economy to the Bible and the hidden meanings and often-misunderstood passages in the text. In between all that, Emily and Joseph kept at the badminton they'd been learning all weekend, playing well over five rounds to scores in the fifties and going from truly terrible to pretty decent by the end."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/IMG_1657.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1658.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1662.jpg",
+          "by": "Evangeline"
+        }
+      ]
     },
     {
       "day": "Day 41",
       "date": "Tuesday, July 21",
-      "place": "Arlington, WA → Oregon coast",
+      "place": "Arlington, WA → Washington coast",
       "coords": [
-        45.89198,
-        -123.9615
+        46.7211,
+        -124.0139
       ],
       "dot": true,
       "endLeg": "x",
@@ -2092,11 +2168,59 @@ window.TRIP = {
       "title": "Seattle supercars, a scrapped plan, and free oceanfront",
       "body": [
         "We got up early and set off south, first stopping in Seattle around 10:30. Evangeline wasn't feeling great, so she rested in the trailer while Joseph grabbed his camera and made the rounds of the exotic-car showrooms — McLaren, Lamborghini, and the connected Bentley and Rolls-Royce showrooms, a look across the road at the Aston Martin, Lotus, and Karma dealerships, then a three-quarter-mile walk over to Ferrari. A few spots didn't allow cameras, but it was a blast to see so many iconic cars up close.",
-        "Back on the road, we'd planned to visit Mount St. Helens — but the road to the classic blast-side view was closed, and the open side would've added an hour and a half for a view that isn't the iconic one, so we skipped it. We aimed for the Columbia River Gorge next, but I-5 traffic was brutal; rather than crawl through Portland at rush hour, we stopped at a Starbucks (Joseph got a little work in), rethought the plan, and pointed straight for the Oregon coast.",
-        "That evening we pulled into a gorgeous spot right on the ocean — a beautiful view, a stunning sunset on the beach, and some very fun photos. The kind of oceanfront you'd usually pay $500 a night for, and we had it for free.",
-        "Photos coming soon."
+        "Back on the road, we'd planned to visit Mount St. Helens — but the road to the classic blast-side view was closed, and the open side would've added an hour and a half for a view that isn't the iconic one, so we skipped it. We aimed for the Columbia River Gorge next, but I-5 traffic was brutal; rather than crawl through Portland at rush hour, we stopped at a Starbucks (Joseph got a little work in), rethought the plan, and pointed for the coast.",
+        "That evening we pulled into a gorgeous spot right on the ocean near Dexter by the Sea, at the Deva viewpoint on the Washington coast — a beautiful view, a stunning sunset on the beach, and some very fun photos. The kind of oceanfront you'd usually pay $500 a night for, and we had it for free."
       ],
-      "media": []
+      "media": [
+        {
+          "src": "media/jul21-1.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-2.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-3.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-4.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-5.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-6.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-7.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-8.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/jul21-9.jpg",
+          "by": "Joseph"
+        },
+        {
+          "src": "media/IMG_1667.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1673.jpg",
+          "by": "Evangeline"
+        },
+        {
+          "src": "media/IMG_1677.jpg",
+          "by": "Evangeline"
+        }
+      ]
     }
   ]
 };
