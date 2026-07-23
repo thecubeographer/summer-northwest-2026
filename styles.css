@@ -122,6 +122,14 @@ a{color:inherit}
 .m{margin:22px 0;position:relative}
 .has-comment::after{content:"";position:absolute;top:9px;right:9px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.35);z-index:4;pointer-events:none}
 .m img,.m video{width:100%;border-radius:5px;background:var(--line);display:block}
+/* loading shimmer: photos animate a gradient sweep until they decode, then fade in */
+.m:not(.video),.hl{background:linear-gradient(100deg,#e8e0d3 25%,#f4eee2 50%,#e8e0d3 75%);background-size:220% 100%;animation:shimmer 1.25s linear infinite;border-radius:5px}
+.spread-media .m:not(.video),.lead-full .m:not(.video){min-height:240px}
+.m.loaded,.hl.loaded{animation:none;background:none;min-height:0}
+.m:not(.video) img,.hl img{transition:opacity .5s ease}
+.m:not(.video):not(.loaded) img,.hl:not(.loaded) img{opacity:0}
+@keyframes shimmer{0%{background-position:220% 0}100%{background-position:-120% 0}}
+@media (prefers-reduced-motion:reduce){.m:not(.video),.hl{animation:none}}
 .m video{background:#000}
 .m figcaption{font-size:14.5px;font-style:italic;color:var(--soft);margin-top:7px}
 .m.video{position:relative;cursor:pointer}

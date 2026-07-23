@@ -98,6 +98,15 @@
   var igFoot = meta.instagram ? '<p class="foot-ig"><a href="https://www.instagram.com/' + esc(meta.instagram) + '/" target="_blank" rel="noopener">@' + esc(meta.instagram) + ' on Instagram ↗</a></p>' : "";
   document.getElementById("foot").innerHTML = "<p>More to come.</p>" + igFoot;
 
+  /* shimmer placeholder: drop the sweep + fade each photo in once it actually decodes */
+  (function () {
+    function reveal(img) { var f = img.closest(".m, .hl"); if (f) f.classList.add("loaded"); }
+    [].forEach.call(document.querySelectorAll(".m:not(.video) img, .hl img"), function (img) {
+      if (img.complete && img.naturalWidth) reveal(img);
+      else { img.addEventListener("load", function () { reveal(img); }); img.addEventListener("error", function () { reveal(img); }); }
+    });
+  })();
+
   /* ---------- videos: autoplay (muted) in view, pause out; tap for sound ---------- */
   (function () {
     var io = new IntersectionObserver(function (entries) {
