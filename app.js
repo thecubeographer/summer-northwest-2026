@@ -89,7 +89,7 @@
                  '<div class="spread-text">' + textHtml + "</div></div>";
       rest = media.slice(1);
     } else if (hasText) {
-      spread = '<div class="post-textonly spread-text">' + textHtml + '</div><div class="photos-soon">Photos coming soon</div>';   // no photos yet
+      spread = '<div class="post-textonly spread-text">' + textHtml + "</div>";   // text-only day; no placeholder badge
     }
     var gallery = rest.length ? '<div class="gallery">' + rest.map(mediaFig).join("") + "</div>" : "";
     art.innerHTML = head + spread + gallery;

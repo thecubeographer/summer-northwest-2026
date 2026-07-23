@@ -1921,8 +1921,7 @@ window.TRIP = {
       "title": "Sunday at Doxa, and burgers",
       "body": [
         "Sunday we went to church with the Pecks at Doxa Church, then headed back to their place for a burger lunch.",
-        "We hung around and played games too — including Rummikub, which I'd never played before — and watched the movie F1, which was super cool. A relaxed close to a full few days with good friends.",
-        "Photos coming soon."
+        "We hung around and played games too — including Rummikub, which I'd never played before — and watched the movie F1, which was super cool. A relaxed close to a full few days with good friends."
       ],
       "media": []
     },
@@ -1940,8 +1939,7 @@ window.TRIP = {
       "title": "A work day, rummy, and s'mores",
       "body": [
         "A quieter day around Redmond — Joseph worked while Evangeline ran out for groceries.",
-        "In the evening Joseph played soccer and jumped on the trampoline with the boys, who completely destroyed him at soccer. We also played Michigan rummy with the grandsons again and made s'mores to cap off the night.",
-        "Photos coming soon."
+        "In the evening Joseph played soccer and jumped on the trampoline with the boys, who completely destroyed him at soccer. We also played Michigan rummy with the grandsons again and made s'mores to cap off the night."
       ],
       "media": []
     },
