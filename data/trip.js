@@ -2287,10 +2287,17 @@ window.TRIP = {
     {
       "day": "Day 43",
       "date": "Thursday, July 23",
-      "coords": [45.8027, -123.9632],
-      "dot": false,
-      "endLeg": "y",
+      "place": "Arch Cape → Sand Lake, OR",
+      "coords": [45.285, -123.925],
+      "dot": true,
+      "endLeg": "z",
       "endFrac": 1,
+      "title": "Tillamook cheese, Tunnel Beach, and a noisy roadside",
+      "body": [
+        "We'd camped along the highway the night before on a spot the internet swore was quiet — it absolutely wasn't. Semis roared past all night, so we slept terribly.",
+        "We kept driving south and stopped in Tillamook to tour the Tillamook cheese factory, coming away with cheese, ice cream, and yogurt as souvenirs — all fantastic.",
+        "From there we found a gorgeous spot called Tunnel Beach, where we walked through the tunnel in the headland over to Lost Boy Beach. Then we carried on south, just past the town of Sand Lake, and drove up a gravel road to a national-forest parking lot near some mountain-biking trails to camp for the night — where we watched Ford v Ferrari."
+      ],
       "media": [
         { "src": "media/20260723_095821.mp4", "poster": "media/20260723_095821.poster.jpg", "video": true, "by": "Joseph" },
         { "src": "media/20260723_100345.mp4", "poster": "media/20260723_100345.poster.jpg", "video": true, "by": "Joseph" },
@@ -2305,10 +2312,19 @@ window.TRIP = {
     {
       "day": "Day 44",
       "date": "Friday, July 24",
-      "coords": [45.8027, -123.9632],
-      "dot": false,
-      "endLeg": "y",
+      "place": "Sand Lake → Lincoln Beach, OR",
+      "coords": [44.85696, -124.04421],
+      "dot": true,
+      "endLeg": "aa",
       "endFrac": 1,
+      "title": "Joe's birthday, a propane saga, and a trailer on the edge",
+      "body": [
+        "The next morning was Joseph's birthday. We celebrated with a chocolate-chip-pancake breakfast and he opened the gifts we'd picked out — but right as we were cooking, one of our propane tanks ran dry. Our tanks are expired and we weren't sure how much was left in the second, so we knew we had to sort it out.",
+        "We drove down to Lincoln City, bought a new tank, and took it to be filled — only for it to turn out broken and unfillable. So we returned it, exchanged it, went back, and the replacement worked. Propane sorted at last.",
+        "Then we drove south to Lincoln Beach, where our friends the Altons were on a family vacation in a rented beach house. They kindly folded us into their day and we had a fun afternoon on the beach.",
+        "The plan was to park the trailer at a second house they'd rented, down a long, downhill gravel driveway alongside a hillside. It didn't look steep, but there was no room to turn around, so I backed down — and the moment our tires left the pavement, the loose, sandy gravel gave zero traction. We slid about fifteen feet and the trailer swung out over the edge, hanging over an eight-foot drop to a concrete driveway below. Unbelievably, a band of thick, knee-high bushes was just enough to catch it. Mr. Alton traded places with me so I wouldn't be in the car if it went over, and some kind landscapers who saw the whole thing roped the car's front end and pulled us back up and out. We gave up on that spot; the Altons shuffled their cars so we could squeeze into the main driveway, unhooked, and took up two spaces.",
+        "After all that, I helped Mrs. Alton with dinner and we spent the evening playing games with them."
+      ],
       "media": [
         { "src": "media/20260724_135435.jpg", "by": "Joseph" },
         { "src": "media/20260724_160012.jpg", "by": "Joseph" },
@@ -2323,9 +2339,9 @@ window.TRIP = {
     {
       "day": "Day 45",
       "date": "Saturday, July 25",
-      "coords": [45.8027, -123.9632],
+      "coords": [44.85696, -124.04421],
       "dot": false,
-      "endLeg": "y",
+      "endLeg": "aa",
       "endFrac": 1,
       "media": [
         { "src": "media/DSC05065.jpg", "by": "Joseph" },
@@ -2338,9 +2354,9 @@ window.TRIP = {
     {
       "day": "Day 46",
       "date": "Sunday, July 26",
-      "coords": [45.8027, -123.9632],
+      "coords": [44.85696, -124.04421],
       "dot": false,
-      "endLeg": "y",
+      "endLeg": "aa",
       "endFrac": 1,
       "media": [
         { "src": "media/20260726_085429.jpg", "by": "Joseph" },
@@ -2353,9 +2369,9 @@ window.TRIP = {
     {
       "day": "Day 47",
       "date": "Monday, July 27",
-      "coords": [45.8027, -123.9632],
+      "coords": [44.85696, -124.04421],
       "dot": false,
-      "endLeg": "y",
+      "endLeg": "aa",
       "endFrac": 1,
       "media": [
         { "src": "media/20260727_133413.mp4", "poster": "media/20260727_133413.poster.jpg", "video": true, "by": "Joseph" },
@@ -2377,9 +2393,9 @@ window.TRIP = {
     {
       "day": "Day 48",
       "date": "Tuesday, July 28",
-      "coords": [45.8027, -123.9632],
+      "coords": [44.85696, -124.04421],
       "dot": false,
-      "endLeg": "y",
+      "endLeg": "aa",
       "endFrac": 1,
       "media": [
         { "src": "media/IMG_1869.jpg", "by": "Evangeline" }
