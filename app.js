@@ -49,8 +49,14 @@
       var cap = (m.day || m.caption) ? '<figcaption>' + (m.day ? '<span class="hl-day">' + esc(m.day) + "</span>" : "") + (m.caption ? esc(m.caption) : "") + "</figcaption>" : "";
       return '<figure class="hl"><img src="' + m.src + '" alt="" loading="lazy">' + cap + "</figure>";
     }
-    var items = hi.map(hfig).join("");
-    h.innerHTML = '<div class="hl-label">Highlights</div><div class="hl-strip"><div class="hl-track">' + items + items + "</div></div>";
+    var half = Math.ceil(hi.length / 2);
+    var rowA = hi.slice(0, half).map(hfig).join("");
+    var rowB = hi.slice(half).map(hfig).join("");
+    h.innerHTML = '<div class="hl-label">Highlights</div>' +
+      '<div class="hl-strip">' +
+        '<div class="hl-track">' + rowA + rowA + '</div>' +
+        '<div class="hl-track rev">' + rowB + rowB + '</div>' +
+      '</div>';
   })();
 
   /* ---------- sections (magazine) ---------- */
