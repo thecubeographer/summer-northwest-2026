@@ -8,6 +8,16 @@ window.TRIP = {
     "instagram": "joe.and.evangeline",
     "highlights": [
       {
+        "src": "media/rdtrp-1.jpg",
+        "day": "",
+        "caption": ""
+      },
+      {
+        "src": "media/rdtrp-2.jpg",
+        "day": "",
+        "caption": ""
+      },
+      {
         "src": "media/rtcexotics-05.jpg",
         "day": "Day 31",
         "caption": ""
@@ -2265,7 +2275,114 @@ window.TRIP = {
         {
           "src": "media/IMG_1731.jpg",
           "by": "Evangeline"
+        },
+        {
+          "src": "media/20260722_171140.mp4",
+          "poster": "media/20260722_171140.poster.jpg",
+          "video": true,
+          "by": "Joseph"
         }
+      ]
+    },
+    {
+      "day": "Day 43",
+      "date": "Thursday, July 23",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/20260723_095821.mp4", "poster": "media/20260723_095821.poster.jpg", "video": true, "by": "Joseph" },
+        { "src": "media/20260723_100345.mp4", "poster": "media/20260723_100345.poster.jpg", "video": true, "by": "Joseph" },
+        { "src": "media/IMG_1752.mp4", "poster": "media/IMG_1752.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1758.mp4", "poster": "media/IMG_1758.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/20260723_173730.mp4", "poster": "media/20260723_173730.poster.jpg", "video": true, "by": "Joseph" },
+        { "src": "media/IMG_1765.mp4", "poster": "media/IMG_1765.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1776.mp4", "poster": "media/IMG_1776.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1777.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 44",
+      "date": "Friday, July 24",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/20260724_135435.jpg", "by": "Joseph" },
+        { "src": "media/20260724_160012.jpg", "by": "Joseph" },
+        { "src": "media/IMG_1790.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1795.mp4", "poster": "media/IMG_1795.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1797.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1799.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1802.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1804.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 45",
+      "date": "Saturday, July 25",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/DSC05065.jpg", "by": "Joseph" },
+        { "src": "media/DSC05076.jpg", "by": "Joseph" },
+        { "src": "media/DSC05159.jpg", "by": "Joseph" },
+        { "src": "media/20260725_220415.jpg", "by": "Joseph" },
+        { "src": "media/20260725_224503.jpg", "by": "Joseph" }
+      ]
+    },
+    {
+      "day": "Day 46",
+      "date": "Sunday, July 26",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/20260726_085429.jpg", "by": "Joseph" },
+        { "src": "media/IMG_1813.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1820.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1823.jpg", "by": "Evangeline" },
+        { "src": "media/20260726_221008.jpg", "by": "Joseph" }
+      ]
+    },
+    {
+      "day": "Day 47",
+      "date": "Monday, July 27",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/20260727_133413.mp4", "poster": "media/20260727_133413.poster.jpg", "video": true, "by": "Joseph" },
+        { "src": "media/20260727_135815.jpg", "by": "Joseph" },
+        { "src": "media/20260727_152928.jpg", "by": "Joseph" },
+        { "src": "media/IMG_1834.mp4", "poster": "media/IMG_1834.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1840.mp4", "poster": "media/IMG_1840.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1843.mp4", "poster": "media/IMG_1843.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/rdtrp-3.jpg", "by": "Joseph" },
+        { "src": "media/rdtrp-4.jpg", "by": "Joseph" },
+        { "src": "media/rdtrp-5.jpg", "by": "Joseph" },
+        { "src": "media/rdtrp-6.jpg", "by": "Joseph" },
+        { "src": "media/rdtrp-7.jpg", "by": "Joseph" },
+        { "src": "media/rdtrp-8.jpg", "by": "Joseph" },
+        { "src": "media/IMG_1848.mp4", "poster": "media/IMG_1848.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1854.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 48",
+      "date": "Tuesday, July 28",
+      "coords": [45.8027, -123.9632],
+      "dot": false,
+      "endLeg": "y",
+      "endFrac": 1,
+      "media": [
+        { "src": "media/IMG_1869.jpg", "by": "Evangeline" }
       ]
     }
   ]
