@@ -2339,10 +2339,15 @@ window.TRIP = {
     {
       "day": "Day 45",
       "date": "Saturday, July 25",
+      "place": "Lincoln Beach, OR",
       "coords": [44.85696, -124.04421],
       "dot": false,
       "endLeg": "aa",
       "endFrac": 1,
+      "title": "The rest of the family arrives, and marathon Catan",
+      "body": [
+        "Alexis, Sophia, Noah, and Sophie and Peter all arrived — they'd driven up separately, a day behind the others. We enjoyed a walk on the beach together, and once everyone got settled we started a very long game of Settlers of Catan that stretched all the way to dinnertime."
+      ],
       "media": [
         { "src": "media/DSC05065.jpg", "by": "Joseph" },
         { "src": "media/DSC05076.jpg", "by": "Joseph" },
@@ -2354,10 +2359,17 @@ window.TRIP = {
     {
       "day": "Day 46",
       "date": "Sunday, July 26",
+      "place": "Lincoln Beach, OR",
       "coords": [44.85696, -124.04421],
       "dot": false,
       "endLeg": "aa",
       "endFrac": 1,
+      "title": "Birthday coffee, thrifting, and cards till midnight",
+      "body": [
+        "In the morning all the women — the moms, the adult daughters, and the girlfriends — went out to a local coffee shop to celebrate one of the moms' birthdays, then hit a big antique store and a Goodwill boutique for some shopping before heading back to the house. Meanwhile Joseph worked on the Newmans' karate website and got their new site live after lunch.",
+        "In the afternoon the young men went disc golfing at a local course while the young women went out shopping again and the moms stayed home; the girls and I made another run to Goodwill and the local outlets. We got back around six expecting the guys, but their game ran long and they didn't roll in until about seven, right as dinner hit the table.",
+        "That evening all the young couples came out to our trailer for a couples card game that — accidentally — went until midnight."
+      ],
       "media": [
         { "src": "media/20260726_085429.jpg", "by": "Joseph" },
         { "src": "media/IMG_1813.jpg", "by": "Evangeline" },
@@ -2369,10 +2381,16 @@ window.TRIP = {
     {
       "day": "Day 47",
       "date": "Monday, July 27",
-      "coords": [44.85696, -124.04421],
-      "dot": false,
-      "endLeg": "aa",
+      "place": "Lincoln Beach → Columbia River Gorge, OR",
+      "coords": [45.56067, -122.17205],
+      "dot": true,
+      "endLeg": "ab",
       "endFrac": 1,
+      "title": "Portland Porsches, In-N-Out, and into the Gorge",
+      "body": [
+        "In the morning Joseph and I packed up and pulled out around 10:30, heading inland to Portland. We stopped by Grand Prix Motorcars — a big Porsche dealership with over a hundred used Porsches in one huge showroom — then grabbed lunch at a little local Mexican spot.",
+        "From there we ran north just into Vancouver for In-N-Out — our first since the very start of the trip, and something I'd been craving. Then we continued into the Columbia River Gorge and spent the night at a local trailhead."
+      ],
       "media": [
         { "src": "media/20260727_133413.mp4", "poster": "media/20260727_133413.poster.jpg", "video": true, "by": "Joseph" },
         { "src": "media/20260727_135815.jpg", "by": "Joseph" },
@@ -2393,10 +2411,16 @@ window.TRIP = {
     {
       "day": "Day 48",
       "date": "Tuesday, July 28",
-      "coords": [44.85696, -124.04421],
-      "dot": false,
-      "endLeg": "aa",
+      "place": "Columbia River Gorge → Catherine Creek, WA",
+      "coords": [45.7105, -121.36162],
+      "dot": true,
+      "endLeg": "ac",
       "endFrac": 1,
+      "title": "The Gorge we couldn't fit, and Catherine Creek",
+      "body": [
+        "The plan was to explore the Columbia River Gorge scenic route — Multnomah Falls and all the classic stops — but the more I looked into it, the clearer it got that our rig wouldn't fit; there's a strict length limit and nowhere to safely park and leave the trailer for the day. So we had to skip it, and decided we'll come back another time with just the car to do the Gorge properly.",
+        "Instead we continued east, did some grocery shopping, crossed back into Washington at White Salmon, and headed up to spend the night at the Catherine Creek recreation area."
+      ],
       "media": [
         { "src": "media/IMG_1869.jpg", "by": "Evangeline" }
       ]
