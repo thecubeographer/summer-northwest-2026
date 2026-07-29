@@ -2321,7 +2321,7 @@ window.TRIP = {
       "body": [
         "The next morning was Joseph's birthday. We celebrated with a chocolate-chip-pancake breakfast and he opened the gifts we'd picked out — but right as we were cooking, one of our propane tanks ran dry. Our tanks are expired and we weren't sure how much was left in the second, so we knew we had to sort it out.",
         "We drove down to Lincoln City, bought a new tank, and took it to be filled — only for it to turn out broken and unfillable. So we returned it, exchanged it, went back, and the replacement worked. Propane sorted at last.",
-        "Then we drove south to Lincoln Beach, where our friends the Altons were on a family vacation in a rented beach house. They kindly folded us into their day and we had a fun afternoon on the beach.",
+        "Then we drove south to Lincoln Beach, where our friends the Altons were on a family vacation in a rented beach house. They kindly folded us into their day and we had a fun afternoon on the beach — Joseph headed out to the water with Isaac and John to try learning to skimboard, though it didn't go so well and they got too cold to keep at it.",
         "The plan was to park the trailer at a second house they'd rented, down a long, downhill gravel driveway alongside a hillside. It didn't look steep, but there was no room to turn around, so I backed down — and the moment our tires left the pavement, the loose, sandy gravel gave zero traction. We slid about fifteen feet and the trailer swung out over the edge, hanging over an eight-foot drop to a concrete driveway below. Unbelievably, a band of thick, knee-high bushes was just enough to catch it. Mr. Alton traded places with me so I wouldn't be in the car if it went over, and some kind landscapers who saw the whole thing roped the car's front end and pulled us back up and out. We gave up on that spot; the Altons shuffled their cars so we could squeeze into the main driveway, unhooked, and took up two spaces.",
         "After all that, I helped Mrs. Alton with dinner and we spent the evening playing games with them."
       ],
@@ -2346,7 +2346,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "The rest of the family arrives, and marathon Catan",
       "body": [
-        "Alexis, Sophia, Noah, and Sophie and Peter all arrived — they'd driven up separately, a day behind the others. We enjoyed a walk on the beach together, and once everyone got settled we started a very long game of Settlers of Catan that stretched all the way to dinnertime."
+        "Alexis, Sophia, Noah, and Sophie and Peter all arrived — they'd driven up separately, a day behind the others. Before our group beach walk I headed down the far side of the beach with Isaac and Peter to take some photos of them skimboarding, but the wind kicked up so hard that the sand was pelting us like bullets, so we had to duck back inside.",
+        "Later we all walked the beach together — we did a little mini photoshoot and even spotted a proposal all set up in the sand, which was fun to stumble on. Once everyone got settled, we started a very long game of Settlers of Catan that stretched all the way to dinnertime."
       ],
       "media": [
         { "src": "media/DSC05065.jpg", "by": "Joseph" },
