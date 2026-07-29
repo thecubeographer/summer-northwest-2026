@@ -2389,8 +2389,9 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Portland Porsches, In-N-Out, and into the Gorge",
       "body": [
-        "In the morning Joseph and I packed up and pulled out around 10:30, heading inland to Portland. We stopped by Grand Prix Motorcars — a big Porsche dealership with over a hundred used Porsches in one huge showroom — then grabbed lunch at a little local Mexican spot.",
-        "From there we ran north just into Vancouver for In-N-Out — our first since the very start of the trip, and something I'd been craving. Then we continued into the Columbia River Gorge and spent the night at a local trailhead."
+        "The morning started with a really good muffin breakfast at the Altons'. We said our goodbyes and pulled out around 10:30, heading inland to Portland.",
+        "Our first stop was the Porsche Design Studio — the very first Porsche studio in America. It felt more like a beautiful office than a showroom: a café, a gorgeous view, and a few Porsches on display. We hung out a while, went out for a Mexican lunch, then came back so Joseph could get some work done there for a bit.",
+        "On our way out we passed the other Porsche spot — Grand Prix Motorcars, a proper dealership with hundreds of used Porsches (a completely separate place from the studio). From there we ran north just into Vancouver for In-N-Out — our first since the very start of the trip, and something I'd been craving. Then we continued into the Columbia River Gorge and spent the night at a local trailhead."
       ],
       "media": [
         { "src": "media/20260727_133413.mp4", "poster": "media/20260727_133413.poster.jpg", "video": true, "by": "Joseph" },
