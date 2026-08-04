@@ -2424,7 +2424,120 @@ window.TRIP = {
         "Instead we continued east, did some grocery shopping, crossed back into Washington at White Salmon, and headed up to spend the night at the Catherine Creek recreation area."
       ],
       "media": [
-        { "src": "media/IMG_1869.jpg", "by": "Evangeline" }
+        { "src": "media/IMG_1869.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1868.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1871.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1874.mp4", "poster": "media/IMG_1874.poster.jpg", "video": true, "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 49",
+      "date": "Wednesday, July 29",
+      "place": "Catherine Creek, WA → Culver, OR",
+      "coords": [44.44, -121.2],
+      "dot": true,
+      "endLeg": "ad",
+      "endFrac": 1,
+      "title": "Down through The Dalles and the wildfire smoke",
+      "body": [
+        "We drove down through The Dalles and onto Highway 197, heading south through heavy wildfire smoke for much of the day. A little past Culver we pulled off and spent the night on a dirt road."
+      ],
+      "media": [
+        { "src": "media/IMG_1881.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1886.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1890.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1896.mp4", "poster": "media/IMG_1896.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1900.mp4", "poster": "media/IMG_1900.poster.jpg", "video": true, "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 50",
+      "date": "Thursday, July 30",
+      "place": "Smith Rock → Redmond, OR",
+      "coords": [44.28781, -121.05178],
+      "dot": true,
+      "endLeg": "ae",
+      "endFrac": 1,
+      "title": "Wading at Smith Rock",
+      "body": [
+        "We continued south to Smith Rock State Park and cooled off wading in the creek, then spent the night just outside Redmond near the Buckhorn staging area."
+      ],
+      "media": [
+        { "src": "media/IMG_1915.mp4", "poster": "media/IMG_1915.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1920.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 51",
+      "date": "Friday, July 31",
+      "place": "Redmond → Union Creek, OR",
+      "coords": [42.91153, -122.44768],
+      "dot": true,
+      "endLeg": "af",
+      "endFrac": 1,
+      "title": "A rock garden, a brake scare, and Union Creek",
+      "body": [
+        "We drove south and stopped at the Petersen Rock Garden and its little museums. Right after, we realized our brakes weren't working — so we called an RV repair shop in Bend, and they took us in right away. It turned out to be a simple fix, just a broken wire, and we were back on the road.",
+        "From there we drove down Highway 97, turned onto Highway 138 and then Highway 230, and camped in the national forest near Union Creek."
+      ],
+      "media": [
+        { "src": "media/IMG_1929.mp4", "poster": "media/IMG_1929.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1934.mp4", "poster": "media/IMG_1934.poster.jpg", "video": true, "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 52",
+      "date": "Saturday, August 1",
+      "place": "Union Creek ⇄ Medford, OR",
+      "coords": [42.91153, -122.44768],
+      "dot": false,
+      "endLeg": "af",
+      "endFrac": 1,
+      "title": "Surprising family in Medford",
+      "body": [
+        "We drove down into White City and on to Medford to meet up with Krista, Diana, Elly, Dean, and Nelly — they had no idea we were coming, so it was a fun surprise when we turned up at the In-N-Out for lunch.",
+        "Afterward we headed back up to White City to catch Spider-Man: Brand New Day and do some grocery shopping, then went to Umi Sushi for dinner to celebrate Elly's birthday, before driving back up to the same campsite past Union Creek."
+      ],
+      "media": [
+        { "src": "media/IMG_1969.mp4", "poster": "media/IMG_1969.poster.jpg", "video": true, "by": "Evangeline" },
+        { "src": "media/IMG_1972.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 53",
+      "date": "Sunday, August 2",
+      "place": "Crater Lake, OR",
+      "coords": [42.912, -122.144],
+      "dot": true,
+      "endLeg": "af",
+      "endFrac": 1,
+      "title": "Crater Lake, and cows in the dust",
+      "body": [
+        "In the morning we all drove up Highway 62 to Crater Lake — we saw the lodge and took in that impossibly blue water, then drove around to a viewpoint and looped back on the Volcanic Legacy Scenic Byway to Highway 138 and 230, back toward camp.",
+        "While Diana and Evan napped, Elly, Krista, and Joseph headed down to the river — but it was too cold to get in, so we went for a drive instead, a couple of miles back into the wilderness where we found some cows and had a blast kicking up dust down the dirt road.",
+        "Back at camp we made dinner together and spent the evening playing cards."
+      ],
+      "media": [
+        { "src": "media/IMG_1992.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_1997.jpg", "by": "Evangeline" },
+        { "src": "media/IMG_2005.jpg", "by": "Evangeline" }
+      ]
+    },
+    {
+      "day": "Day 54",
+      "date": "Monday, August 3",
+      "place": "Union Creek, OR → Smith River, CA",
+      "coords": [41.80108, -124.05332],
+      "dot": true,
+      "endLeg": "ag",
+      "endFrac": 1,
+      "title": "Into California and the Smith River",
+      "body": [
+        "In the morning we went our separate ways — Krista and the girls headed north, and Joseph and I turned south. We dropped down through Medford onto I-5, past Rogue River and Grants Pass, then peeled off onto Highway 199 through Cave Junction and down across the California border.",
+        "Near Patrick Creek we pulled over to wade in the Smith River in the heat of the day, then drove a bit farther to the Douglas Park area, where we found a place to stay for the night."
+      ],
+      "media": [
+        { "src": "media/IMG_2007.jpg", "by": "Evangeline" }
       ]
     }
   ]
