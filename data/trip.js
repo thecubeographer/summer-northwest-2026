@@ -1989,7 +1989,7 @@ window.TRIP = {
       "endFrac": 1,
       "title": "A beach reunion, and dinner with the Metcalfs",
       "body": [
-        "Evangeline's parents, the Newmans, arrived at the park around ten, with her sister Emily along too — a happy reunion, since we hadn't seen them in about a month. They also brought us a brand-new Jackery power station to replace the one that had died earlier in the trip — very needed, and so nice to be able to charge things up again and know we're set going forward. They set up camp, and in the afternoon we all walked down to the beach, where Emily hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
+        "Evangeline's parents, the Newmans, arrived at the park around ten, with her sister Emilie along too — a happy reunion, since we hadn't seen them in about a month. They also brought us a brand-new Jackery power station to replace the one that had died earlier in the trip — very needed, and so nice to be able to charge things up again and know we're set going forward. They set up camp, and in the afternoon we all walked down to the beach, where Emilie hunted for shells while the rest of us caught up. Joseph had to work, so he missed the beach this time.",
         "Later we shopped for ties for both guys for Shiloh and Paige's wedding on Saturday, along with a few other errands, then went to the Metcalfs' for dinner. It was good to visit with Amber and Doug, Josh and Moriah, Levi, and the groomsmen staying there with Shiloh. Joseph got to play volleyball with the groomsmen and get to know each of them, and we all chilled in the gazebo through the evening — such a fun night."
       ],
       "media": [
@@ -2047,8 +2047,8 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Flowers for the wedding",
       "body": [
-        "A pretty relaxing day. Evangeline, her mom, and her sister Emily headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer over to the Metcalfs' place in Arlington — the move and setup went easy.",
-        "That evening we all headed out with the Newmans to the La Conner Pub and Eatery in La Conner for fish and chips. While we waited for our food, Emily, Scott, and Joseph wandered around town, checked out some cool crab-fishing boats, and spotted three or four bald eagles. Afterward we drove into Bellingham to catch the movie Young Washington."
+        "A pretty relaxing day. Evangeline, her mom, and her sister Emilie headed out early, stopping for coffee at a cute little shop on the way. They swung by the Metcalfs' so Evangeline could cut a few more flowers from Amber's garden, then took everything over to Paige's parents' house to help put the wedding florals together. Meanwhile Joseph and Evangeline's dad teamed up to move the trailer over to the Metcalfs' place in Arlington — the move and setup went easy.",
+        "That evening we all headed out with the Newmans to the La Conner Pub and Eatery in La Conner for fish and chips. While we waited for our food, Emilie, Scott, and Joseph wandered around town, checked out some cool crab-fishing boats, and spotted three or four bald eagles. Afterward we drove into Bellingham to catch the movie Young Washington."
       ],
       "media": [
         {
@@ -2122,7 +2122,7 @@ window.TRIP = {
       "title": "Slow Sunday, and lunch with the Johanssons",
       "body": [
         "Worn out from the wedding, we spent most of the morning completely crashed. Eventually Joseph, Doug, and Scott set out on a three-mile walk to a bridge nearby, mostly to get some steps in — though Joseph went barefoot for the first half after he couldn't find his tennis shoes, then switched to sandals for the second half and earned some nasty blisters for it. Won't be doing that again.",
-        "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emily to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening."
+        "At lunchtime we went to Lakewood Thai with Evangeline's parents and Emilie to eat with the Johanssons, old family friends. Afterward we came back to the Metcalfs' and crashed for the evening."
       ],
       "media": [
         {
@@ -2145,7 +2145,7 @@ window.TRIP = {
       "title": "Reset day, and a farewell dinner",
       "body": [
         "A pretty straightforward reset day — laundry, cleaning out the RV, and getting things ready to hit the road again.",
-        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south. The evening was the fun part: Joseph got to talk for a good while with the Metcalfs' grandpa — a sharp guy — ranging from AI and its impact on the economy to the Bible and the hidden meanings and often-misunderstood passages in the text. In between all that, Emily and Joseph kept at the badminton they'd been learning all weekend, playing well over five rounds to scores in the fifties and going from truly terrible to pretty decent by the end."
+        "For dinner, Shiloh and Paige came over along with the grandparents, Moriah, and Josh — a nice send-off before heading south. The evening was the fun part: Joseph got to talk for a good while with the Metcalfs' grandpa — a sharp guy — ranging from AI and its impact on the economy to the Bible and the hidden meanings and often-misunderstood passages in the text. In between all that, Emilie and Joseph kept at the badminton they'd been learning all weekend, playing well over five rounds to scores in the fifties and going from truly terrible to pretty decent by the end."
       ],
       "media": [
         {
