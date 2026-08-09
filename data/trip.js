@@ -2495,7 +2495,7 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Surprising family in Medford",
       "body": [
-        "We drove down into White City and on to Medford to meet up with Krista, Diana, Elly, Dean, and Nelly — they had no idea we were coming, so it was a fun surprise when we turned up at the In-N-Out for lunch.",
+        "We drove down into White City and on to Medford to meet up with Christa, Diana, Elly, Dean, and Nelly — they had no idea we were coming, so it was a fun surprise when we turned up at the In-N-Out for lunch.",
         "Afterward we headed back up to White City to catch Spider-Man: Brand New Day and do some grocery shopping, then went to Umi Sushi for dinner to celebrate Elly's birthday, before driving back up to the same campsite past Union Creek."
       ],
       "media": [
@@ -2514,7 +2514,7 @@ window.TRIP = {
       "title": "Crater Lake, and cows in the dust",
       "body": [
         "In the morning we all drove up Highway 62 to Crater Lake — we saw the lodge and took in that impossibly blue water, then drove around to a viewpoint and looped back on the Volcanic Legacy Scenic Byway to Highway 138 and 230, back toward camp.",
-        "While Diana and Evan napped, Elly, Krista, and Joseph headed down to the river — but it was too cold to get in, so we went for a drive instead, a couple of miles back into the wilderness where we found some cows and had a blast kicking up dust down the dirt road.",
+        "While Diana and Evan napped, Elly, Christa, and Joseph headed down to the river — but it was too cold to get in, so we went for a drive instead, a couple of miles back into the wilderness where we found some cows and had a blast kicking up dust down the dirt road.",
         "Back at camp we made dinner together and spent the evening playing cards."
       ],
       "media": [
@@ -2533,12 +2533,57 @@ window.TRIP = {
       "endFrac": 1,
       "title": "Into California and the Smith River",
       "body": [
-        "In the morning we went our separate ways — Krista and the girls headed north, and Joseph and I turned south. We dropped down through Medford onto I-5, past Rogue River and Grants Pass, then peeled off onto Highway 199 through Cave Junction and down across the California border.",
-        "Near Patrick Creek we pulled over to wade in the Smith River in the heat of the day, then drove a bit farther to the Douglas Park area, where we found a place to stay for the night."
+        "In the morning we went our separate ways — Christa and the girls headed north, and Joseph and I turned south. We dropped down through Medford onto I-5, past Rogue River and Grants Pass, then peeled off onto Highway 199 through Cave Junction and down across the California border.",
+        "Near Patrick Creek we pulled over to wade in the Smith River in the heat of the day, then drove a bit farther to the Douglas Park area, where we found a place to stay for the night. A short walk down led to a beautiful, super-deep stretch of river gorge with hardly anyone around."
       ],
       "media": [
         { "src": "media/IMG_2007.jpg", "by": "Evangeline" }
       ]
+    },
+    {
+      "day": "Day 55",
+      "date": "Tuesday, August 4",
+      "place": "Smith River → Ferndale, CA",
+      "coords": [40.55573, -124.35125],
+      "dot": true,
+      "endLeg": "ah",
+      "endFrac": 1,
+      "title": "Redwoods, elk, and stuck in the sand",
+      "body": [
+        "In the morning we walked back down to that deep river gorge — such a gorgeous, quiet spot — and swam for a bit on Joseph's lunch break before packing up.",
+        "Then we drove into Crescent City, where we showered at the local pool (with a quick dip first), stopped at Walmart so I could get my blood pressure checked, and grabbed McDonald's ice cream. From there we carried on to the Trillium Falls Trail and hiked through the redwoods to a cute little waterfall, then made dinner nearby.",
+        "In the evening we kept driving south, passed a mama and baby elk right on the road, and headed down to Ferndale and out to the beach past town. We pulled in after dark — and what didn't look like much sand turned out to be about eight inches deep, so we got the trailer stuck for the night."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 56",
+      "date": "Wednesday, August 5",
+      "place": "Ferndale → Fort Bragg, CA",
+      "coords": [39.4457, -123.80522],
+      "dot": true,
+      "endLeg": "ai",
+      "endFrac": 1,
+      "title": "Digging out, and down to Fort Bragg",
+      "body": [
+        "Wednesday started with about 45 minutes of digging ourselves out of the sand. Once we were free, we drove up the road for breakfast and a relaxed morning, then headed into Ferndale to walk the shops — where I nearly got hit by a car.",
+        "From there we continued south all the way down to Fort Bragg, and had Mexican for dinner at a little hole-in-the-wall spot."
+      ],
+      "media": []
+    },
+    {
+      "day": "Day 57",
+      "date": "Thursday, August 6",
+      "place": "Fort Bragg → Ocean Cove, CA",
+      "coords": [38.5557, -123.29954],
+      "dot": true,
+      "endLeg": "aj",
+      "endFrac": 1,
+      "title": "South to Ocean Cove",
+      "body": [
+        "After a slow morning while Joseph worked, we ran a few errands in town, then drove south down the coast to the Ocean Cove Resort, where we met up with Laura and Emilie."
+      ],
+      "media": []
     }
   ]
 };
